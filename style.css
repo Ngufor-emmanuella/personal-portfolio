@@ -22,25 +22,23 @@ body {
 
 h1 {
   font-style: normal;
-  font-weight: 500;
-  font-size: 70px;
-  line-height: 82px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 4rem;
   color: #f55800;
-  width: 500px;
-  margin-left: 130px;
+  width: 400px;
+  margin-left: 2rem;
   margin-top: 110px;
 }
 
 h4 {
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 44px;
+  font-weight: 600;
+  font-size: 22px;
   color: #fff;
-  margin-left: 130px;
+  margin-left: 2rem;
   padding-bottom: 0.5rem;
-  letter-spacing: 0.1rem;
 }
 
 p {
@@ -50,8 +48,8 @@ p {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fff;
-  width: 450px;
-  margin-left: 130px;
+  width: 320px;
+  margin-left: 2rem;
   letter-spacing: 0.01rem;
 }
 
@@ -63,37 +61,34 @@ p {
   font-family: 'poppins', sans-serif;
 }
 
-.name2 a {
+.na a {
   color: #fff;
   font-family: 'poppins', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 200;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 5px;
   padding-right: 25px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .name1 {
   margin-right: 8rem;
 }
 
-.name2 li {
-  list-style-type: none;
-}
-
 .na li {
-  padding-left: 130px;
+  margin-left: 2rem;
+  list-style-type: none
 }
 
 .icons {
-  margin-left: 2rem;
+  margin-left: 3rem;
   list-style-type: none;
-  position: absolute;
-  bottom: 15rem;
+  display: flex;
+  margin-top: 1.5rem;
 }
 
 .icons li {
-  padding-bottom: 0.5rem;
+  padding-right: 1.2rem;
 }
 
 .content-image img {
@@ -101,4 +96,15 @@ p {
   position: absolute;
   top: 3.3rem;
   left: 56rem;
+}
+
+.name1 img {
+  position: absolute;
+  left: 27rem;
+}
+
+.image {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0;
 }

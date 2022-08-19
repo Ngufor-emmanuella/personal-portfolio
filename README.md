@@ -1,5 +1,5 @@
 # personal-portfolio
-# second-proj
+
 In this project i built a personal portfolio page. In this project i added icons, used the flex box and offset properties
 to postion ellements.no complex code is done here.
 ## Built With
