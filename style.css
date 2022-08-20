@@ -93,6 +93,8 @@ p {
 }
 
 #headlines {
+  display: flex;
+  flex-direction: column;
   background-image: url(image/illustration-header-mobile.png);
   background-position: right 10.5em;
   background-repeat: no-repeat;
