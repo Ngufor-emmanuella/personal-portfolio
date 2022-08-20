@@ -8,23 +8,28 @@ to postion ellements.no complex code is done here.
 - CSS
 - Linters
 
-## Live Demo (if available)
-
-
-## Getting Started
-
-
 ### Prerequisites
+
+- A browser
+- A code editor example VS code
 
 ### Setup
 
+- A computer with a browser
+- copy  the github link for the repository 
+
 ### Install
 
-### Usage
+- Copy the github link for the repository [repository link](https://github.com/Ngufor-emmanuella/personal-portfolio.git)
+- Open the git terminal and type git clone then paste the repository link
 
 ### Run tests
 
+- It has been tested and it is fully responsive
+
 ### Deployment
+
+- It will be deployed to the github page
 
 
 ## Authors
