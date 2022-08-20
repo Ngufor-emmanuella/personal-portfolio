@@ -43,7 +43,7 @@ nav > a {
 }
 
 /* headline selector */
-#headline {
+.headline {
   display: flex;
   flex-direction: column;
   height: 30rem;
@@ -55,7 +55,7 @@ nav > a {
   background-size: 6.3rem;
 }
 
-#headline > #mainhead {
+.headline > .mainhead {
   color: var(--maincolor);
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -64,18 +64,18 @@ nav > a {
   margin-top: 0.5rem;
 }
 
-#mainhead > span {
+.mainhead > span {
   display: block;
 }
 
-#headline > h2 {
+.headline > h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: var(--txtcolor);
   padding-top: 1rem;
 }
 
-#headline > p {
+.headline > p {
   color: var(--txtcolor);
   padding-top: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -99,7 +99,7 @@ nav > a {
   padding-left: 0.5rem;
 }
 
-#headline > ul {
+.headline > ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -110,12 +110,12 @@ nav > a {
   padding-left: 0.5rem;
 }
 
-#headline > ul > li {
+.headline > ul > li {
   align-items: center;
 }
 
 /* work selector */
-#work {
+.work {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -125,7 +125,7 @@ nav > a {
   color: var(--txtcolor2);
 }
 
-#about > h2 {
+.about > h2 {
   font-family: 'Crete Round', serif;
   font-size: 4rem;
   font-weight: 400;
@@ -135,7 +135,7 @@ nav > a {
   color: var(--maincolor);
 }
 
-#contact > h2 {
+.contact > h2 {
   font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
@@ -156,7 +156,7 @@ nav > a {
   border: none;
 }
 
-#work > .first-box > .headtext > h2 {
+.work > .first-box > .headtext > h2 {
   font-size: 2.2rem;
   font-family: 'Crete Round', serif;
   font-weight: 500;
@@ -195,20 +195,20 @@ div.imgsection {
   width: 87%;
 }
 
-#work-images {
+.work-images {
   padding-top: 3rem;
   position: relative;
   max-width: 19.1rem;
 }
 
-#work > .first-box > .imgsection:nth-child() {
+.work > .first-box > .imgsection:nth-child() {
   display: flex;
   padding-bottom: 2rem;
   padding-right: 2rem;
   justify-content: center;
 }
 
-#about > .listing > ul > li > h3 {
+.about > .listing > ul > li > h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -226,7 +226,7 @@ div.imgsection {
   padding-top: 8rem;
 }
 
-#about > .listing > ul > li > a {
+.about > .listing > ul > li > a {
   text-decoration: none;
   color: var(--txtcolor);
   font-size: 22px;
@@ -236,13 +236,13 @@ div.imgsection {
   text-align: center;
 }
 
-#work > .first-box > .imgsection > .ttwork > h3 {
+.work > .first-box > .imgsection > .ttwork > h3 {
   font-family: 'Crete Round', serif;
   font-weight: 300;
   font-size: 2rem;
 }
 
-#about > p {
+.about > p {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -251,7 +251,7 @@ div.imgsection {
   text-align: left;
 }
 
-#work > .carttt > .cart > p {
+.work > .carttt > .cart > p {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -261,7 +261,7 @@ div.imgsection {
   text-align: left;
 }
 
-#work > .first-box > .imgsection > .ttwork > p {
+.work > .first-box > .imgsection > .ttwork > p {
   font-family: 'Inter', sans-serif;
   padding-top: 0.5rem;
   margin-right: 1.98rem;
@@ -276,7 +276,7 @@ div.imgsection {
   flex-grow: 0;
 }
 
-#about > .listing > ul {
+.about > .listing > ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,21 +287,21 @@ div.imgsection {
   margin-bottom: 3rem;
 }
 
-#work > .carttt > .cart > ul {
+.work > .carttt > .cart > ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   padding: 0 1rem;
 }
 
-#work > .first-box > .imgsection > .ttwork > ul {
+.work > .first-box > .imgsection > .ttwork > ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   padding: 1rem 0;
 }
 
-#work > .carttt > .cart > ul > li {
+.work > .carttt > .cart > ul > li {
   display: flex;
   font-family: 'Inter', sans-serif;
   justify-content: center;
@@ -313,14 +313,14 @@ div.imgsection {
   background-color: var(--colorb);
 }
 
-#work > .first-box > .imgsection > .ttwork > ul > li {
+.work > .first-box > .imgsection > .ttwork > ul > li {
   font-family: 'Inter', sans-serif;
   border: 1px solid var(--line);
   padding: 0.5rem;
   margin-right: 0.5rem;
 }
 
-#about > button {
+.about > button {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -335,13 +335,13 @@ div.imgsection {
   border: none;
 }
 
-#about > button:hover {
+.about > button:hover {
   background: var(--btncol2);
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
 }
 
-#work .carttt > .cart > button {
+.work .carttt > .cart > button {
   height: 3rem;
   margin-top: 1rem;
   margin-bottom: 0;
@@ -360,13 +360,13 @@ div.imgsection {
   background-color: var(--maincolor);
 }
 
-#work .carttt > .cart > button:hover {
+.work .carttt > .cart > button:hover {
   background: var(--btncol2);
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
 }
 
-#work > .first-box > .imgsection > .ttwork > button {
+.work > .first-box > .imgsection > .ttwork > button {
   background: var(--maincolor);
   border: none;
   width: 7rem;
@@ -377,14 +377,14 @@ div.imgsection {
   font-size: 1rem;
 }
 
-#work > .first-box > .imgsection > .ttwork > button:hover {
+.work > .first-box > .imgsection > .ttwork > button:hover {
   background: var(--btncol2);
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
 }
 
 /* work carts selector */
-#work > .carttt > .cart {
+.work > .carttt > .cart {
   display: flexbox;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -401,7 +401,7 @@ div.imgsection {
   color: var(--txtcolor);
 }
 
-#work > .carttt > .cart > h2 {
+.work > .carttt > .cart > h2 {
   padding: 0.5rem 1rem;
   font-weight: 500;
   font-family: 'Crete Round', serif;
@@ -409,12 +409,12 @@ div.imgsection {
   line-height: 40px;
 }
 
-#work > .carttt > .cart > h1 > span {
+.work > .carttt > .cart > h1 > span {
   display: block;
 }
 
 /* about selector */
-#about {
+.about {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -426,7 +426,7 @@ div.imgsection {
   background-position: right 20rem;
 }
 
-#about > .line {
+.about > .line {
   background: var(--backc);
   border: none;
   height: 2px;
@@ -439,7 +439,7 @@ div.imgsection {
 }
 
 /* contact selector */
-#contact {
+.contact {
   background: var(--txtcolor);
   display: flex;
   justify-content: center;
@@ -448,7 +448,7 @@ div.imgsection {
   padding: 0;
 }
 
-#contact form {
+.contact form {
   font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
@@ -519,7 +519,7 @@ form > input[type="submit"] {
   width: 10rem;
 }
 
-#contact > form > input[type="submit"]:hover {
+.contact > form > input[type="submit"]:hover {
   background: var(--btncol2);
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
