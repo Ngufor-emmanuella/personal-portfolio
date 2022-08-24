@@ -472,6 +472,7 @@ input[type="email"] {
   padding: 1rem;
   width: 17.2rem;
   margin-top: 0.4rem;
+  background-color: #fbf8f7;
 }
 
 .footericon {
@@ -502,6 +503,7 @@ textarea {
   color: var(--bkcolor);
   padding-top: 1.5rem;
   margin-top: 0.4rem;
+  background-color: #fbf8f7;
 }
 
 form > input[type="submit"] {
