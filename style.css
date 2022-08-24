@@ -505,7 +505,7 @@ textarea {
   padding-top: 1.5rem;
   margin-top: 0.4rem;
   background-color: #fbf8f7;
-  /* border: 1px solid red; */
+  padding-left: 12px;
 }
 
 form > input[type="submit"] {
