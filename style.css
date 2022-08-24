@@ -148,6 +148,7 @@ nav > a {
   left: 0;
   top: 0;
   color: var(--txtcolor2);
+  /* color: red; */
 }
 
 .headtext {
@@ -504,6 +505,7 @@ textarea {
   padding-top: 1.5rem;
   margin-top: 0.4rem;
   background-color: #fbf8f7;
+  /* border: 1px solid red; */
 }
 
 form > input[type="submit"] {
