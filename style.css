@@ -472,8 +472,7 @@ input[type="email"] {
   border-bottom: 1px solid #dbd8d7;
   padding: 1rem;
   width: 17.2rem;
-  margin-top: 0.4rem;
-  background-color: #fbf8f7;
+  margin: 1rem 0;
 }
 
 .footericon {
@@ -482,12 +481,16 @@ input[type="email"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 0;
+  padding: 0;
   margin-top: 4rem;
   margin-bottom: 0;
   border: 2px solid var(--navcolor);
   border: none;
-  border-top: 1px solid var(--navcolor);
+  border-top: 1px solid #dfe1e6;
+}
+
+.footericon > ul {
+  width: 70%;
 }
 
 textarea {
