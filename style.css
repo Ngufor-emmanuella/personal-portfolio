@@ -93,10 +93,10 @@ nav > a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 10rem;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
+  width: 70%;
 }
 
 .headline > ul {
@@ -148,7 +148,6 @@ nav > a {
   left: 0;
   top: 0;
   color: var(--txtcolor2);
-  /* color: red; */
 }
 
 .headtext {
@@ -487,10 +486,6 @@ input[type="email"] {
   border: 2px solid var(--navcolor);
   border: none;
   border-top: 1px solid #dfe1e6;
-}
-
-.footericon > ul {
-  width: 70%;
 }
 
 textarea {
