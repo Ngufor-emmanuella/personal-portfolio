@@ -552,3 +552,21 @@ nav > :nth-child(3) {
 form#f2 {
   display: none;
 }
+
+@media only screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav > :nth-child(3) {
+    display: flex;
+    list-style-type: none;
+  }
+
+  nav > :nth-child(3) > li {
+    text-decoration: none;
+    color: #fff;
+  }
+}
