@@ -112,6 +112,7 @@ nav > a {
 
 .headline > ul > li {
   align-items: center;
+  list-style-type: none;
 }
 
 /* work selector */
@@ -553,6 +554,10 @@ form#f2 {
   display: none;
 }
 
+.contact2 {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   * {
     padding: 0;
@@ -598,6 +603,12 @@ form#f2 {
     background-repeat: no-repeat;
     background-position: 884px;
     background-size: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    width: 100%;
+  
+  
   }
 
   .headline h2 {
@@ -651,8 +662,6 @@ aside > ul > li {
 }
 
 .imgsection img {
-  /* position: relative;
-  right: 15rem; */
   padding-top: 2rem;
 }
 
@@ -810,13 +819,60 @@ background: #F55800;
   justify-content: space-around;
 }
 
-/* .contact {
-  display: flex;
-} */
-
-.footericon > ul {
-  margin-right: -1rem;
-  border:1px solid green;
+.contact {
+  display: none;
 }
 
+.contact2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.form-name {
+  display: flex;
+}
+
+.contact2 > h2 {
+  width: 23rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  align-items: center;
+  color: #262626;
+  position: inherit;
+  left: 9rem;
+}
+
+textarea {
+  position: inherit;
+  right: 18rem;
+  background: #FBF8F7;
+  bottom: 1rem;
+  top: 3rem;
+}
+
+form {
+  position: inherit;
+  left: 5rem;
+}
+
+.last-button {
+  position: inherit;
+  top: 5.5rem;
+  right: 35em;
+}
+
+.email5 {
+  position: inherit;
+  bottom: 6rem;
+}
+
+.footericon > .foot-desk > img {
+  padding-right: 1px;
+}
 }
