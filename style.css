@@ -636,6 +636,19 @@ form#f2 {
     line-height: 32px;
 }
 
+
+div.imgsection{
+  width: 50%;
+  padding: 0px 30px;
+}
+div.imgsection img{
+  width: 90%;
+}
+div.ttwork{
+  width: 50%;
+}
+
+
 aside {
   position: relative;
   bottom: 14rem;
@@ -653,16 +666,17 @@ aside > ul > li {
   width: 100%;
 }
 
-.first-box {
+section div.first-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  width: 100%;
 }
 
 .ttwork {
   display: flex;
   flex-direction: column;
 }
+
 
 
 /* .work > .first-box > .headtext > h2 {
@@ -694,7 +708,7 @@ aside > ul > li {
 .imgsection > .ttwork > ul {
   margin-top: -1rem;
 } */
-
+/* 
 .carttt {
   display: none;
 }
@@ -886,4 +900,5 @@ background: #F55800;
 .footericon > .foot-desk > li {
   padding: 5px 10px 8px 8px;
 }
-}
+} */
+
