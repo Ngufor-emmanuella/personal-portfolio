@@ -560,13 +560,263 @@ form#f2 {
     box-sizing: border-box;
   }
 
+  nav {
+    padding: 16px 96px;
+  }
+
   nav > :nth-child(3) {
     display: flex;
     list-style-type: none;
   }
 
-  nav > :nth-child(3) > li {
+  nav > img {
+    display: none;
+  }
+
+  .envelope > li > a {
+    color: #fff;
     text-decoration: none;
+    padding: 0 0 0 32px;
+  }
+
+  nav > a {
     color: #fff;
   }
+
+  .mainhead {
+    width: 566px;
+    height: 160px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .headline {
+    background-image: url(image/Illustration-header@2x.png);
+    background-repeat: no-repeat;
+    background-position: 884px;
+    background-size: 30%;
+  }
+
+  .headline h2 {
+    padding: 16px 0 0 72px;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .headline p {
+    padding: 16px 0 0 72px;
+    width: 700px;
+    height: 123px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+aside {
+  position: relative;
+  bottom: 14rem;
+}
+
+aside > ul {
+  list-style-type: none;
+}
+
+aside > ul > li {
+  padding-bottom: 0.5rem;
+}
+
+.work > .first-box > .headtext > h2 {
+  font-size: 2rem;
+  font-family: 'Crete Round', serif;
+  justify-items: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+}
+.imgsection {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgsection img {
+  /* position: relative;
+  right: 15rem; */
+  padding-top: 2rem;
+}
+
+.imgsection > .ttwork > p {
+  width: 90rem;
+  line-height: 1rem;
+}
+
+.imgsection > .ttwork > ul {
+  margin-top: -1rem;
+}
+
+.carttt {
+  display: none;
+}
+
+.cartt2 > .cart > p {
+  width: 18rem;
+}
+
+.cartt2 > .c1 {
+  position: relative;
+  bottom: 2.6rem;
+}
+
+.cartt2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+}
+
+.cartt2 > .cart > h2 {
+  position: relative;
+  top: 11rem;
+  color: #fff;
+  left: 2rem;
+  width: 337px;
+  height: 38px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 29px;
+}
+
+.cartt2 > .cart > p {
+  position: relative;
+  top: 13rem;
+  color: #fff;
+  left: 2rem;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.cartt2 > .cart > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15rem;
+  position: relative;
+  top: 14.5rem;
+  left: 1rem;
+}
+
+.cartt2 > .cart > ul > li {
+  border: 1px solid #808080;
+  margin-left: 1rem;
+  padding: 5px 5px;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
+.cartt2 > .c1 {
+  background-image: url(image/ImgPlaceholder-\(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.cartt2 > .c1 > button {
+  position: relative;
+  top: 21.5rem;
+  width: 359px;
+  height: 58px;
+  background: #f55800;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid #f55800;
+}
+
+.cartt2 > .c2 {
+  background-image: url(image/ImgPlaceholder-\(5\).png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.cartt2 > .c3 {
+  background-image: url(image/ImgPlaceholder-\(6\).png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.cartt2 > .c4 {
+  background-image: url(image/Img-PlaceholderC.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* start of about */
+.about {
+  background-image: url(image/illustration-about-me-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 884px top;
+  background-size: 30%;
+  margin-top: 5rem;
+}
+
+.about > h2 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #F55800;
+}
+
+.about > p {
+  width: 566px;
+  height: 148px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F4F5F7;
+}
+
+.about > button {
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+width: 161px;
+height: 48px;
+background: #F55800;
+}
+
+.listing {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .contact {
+  display: flex;
+} */
+
+.footericon > ul {
+  margin-right: -1rem;
+  border:1px solid green;
+}
+
 }
