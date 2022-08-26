@@ -46,7 +46,8 @@ nav > a {
 .headline {
   display: flex;
   flex-direction: column;
-  height: 30rem;
+  /* height: 30rem; */
+  width: 100%;
   background: var(--bkcolor);
   padding: 6rem 2rem 2rem 2rem;
   background-image: url(Resources/Images/illustration-header-mobile.png);
@@ -565,6 +566,10 @@ form#f2 {
     box-sizing: border-box;
   }
 
+  body {
+    margin: 0;
+  }
+
   nav {
     padding: 16px 96px;
   }
@@ -603,8 +608,8 @@ form#f2 {
     background-repeat: no-repeat;
     background-position: 884px;
     background-size: 30%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
     height: 30rem;
     width: 100%;
   
@@ -644,24 +649,40 @@ aside > ul > li {
   padding-bottom: 0.5rem;
 }
 
-.work > .first-box > .headtext > h2 {
+.work {
+  width: 100%;
+}
+
+.first-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ttwork {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* .work > .first-box > .headtext > h2 {
   font-size: 2rem;
   font-family: 'Crete Round', serif;
   justify-items: center;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
-}
-.imgsection {
+} */
+/* .imgsection {
   display: flex;
   border: 1px solid red;
   width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.imgsection img {
+/* .imgsection img {
   padding-top: 2rem;
 }
 
@@ -672,7 +693,7 @@ aside > ul > li {
 
 .imgsection > .ttwork > ul {
   margin-top: -1rem;
-}
+} */
 
 .carttt {
   display: none;
@@ -691,6 +712,8 @@ aside > ul > li {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 1.5rem;
+  justify-content: center;
+  width: 100%;
 }
 
 .cartt2 > .cart > h2 {
@@ -825,54 +848,42 @@ background: #F55800;
 
 .contact2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: 3rem;
   margin-bottom: 10rem;
+  width: 100%;
 }
 
-.form-name {
+ .form-name {
   display: flex;
 }
 
 .contact2 > h2 {
-  width: 23rem;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 30px;
-  line-height: 42px;
+  line-height: 40px;
   align-items: center;
   color: #262626;
-  position: inherit;
-  left: 9rem;
-}
-
-textarea {
-  position: inherit;
-  right: 18rem;
-  background: #FBF8F7;
-  bottom: 1rem;
-  top: 3rem;
-}
-
-form {
-  position: inherit;
-  left: 5rem;
 }
 
 .last-button {
   position: inherit;
   top: 5.5rem;
-  right: 35em;
+  right: 18rem;
 }
 
-.email5 {
-  position: inherit;
-  bottom: 6rem;
+.footericon > .foot-desk {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px 8px 8px;
+  width: auto;
 }
 
-.footericon > .foot-desk > img {
-  padding-right: 1px;
+.footericon > .foot-desk > li {
+  padding: 5px 10px 8px 8px;
 }
 }
