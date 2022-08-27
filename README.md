@@ -1,7 +1,6 @@
 # personal-portfolio
 
-In this project i built a personal portfolio page mobile version. In this project i added icons, used the flex box and offset properties where i used to postion ellements and css grid to display the various cards.Also I created a contact form where users can input different informations about themselfs and submit to formspree
-account which i created.no complex code is done here.
+In this project i built a desktop portfolio version webpage with a min width of 768px. grid and flex position elements are used to position elements in my webpage. Also on buttons hover was applied to them .no complex code is done here.
 ## Built With
 
 - HTML
