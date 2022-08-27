@@ -560,94 +560,81 @@ form#f2 {
 }
 
 @media only screen and (min-width: 768px) {
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-  }
-
-  nav {
-    padding: 16px 96px;
-  }
-
-  nav > :nth-child(3) {
-    display: flex;
-    list-style-type: none;
-  }
-
-  nav > img {
-    display: none;
-  }
-
-  .envelope > li > a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 0 0 32px;
-  }
-
-  nav > a {
-    color: #fff;
-  }
-
-  .mainhead {
-    width: 566px;
-    height: 160px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 82px;
-  }
-
-  .headline {
-    background-image: url(image/Illustration-header@2x.png);
-    background-repeat: no-repeat;
-    background-position: 884px;
-    background-size: 30%;
-    display: grid;
-    grid-template-columns: auto;
-    height: 30rem;
-    width: 100%;
-  
-  
-  }
-
-  .headline h2 {
-    padding: 16px 0 0 72px;
-    color: #fff;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-  }
-
-  .headline p {
-    padding: 16px 0 0 72px;
-    width: 700px;
-    height: 123px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-div.imgsection{
-  width: 50%;
-  padding: 0px 30px;
-}
-div.imgsection img{
-  width: 90%;
-}
-div.ttwork{
-  width: 50%;
+body {
+  margin: 0;
 }
 
+nav {
+  padding: 16px 96px;
+}
+
+nav > :nth-child(3) {
+  display: flex;
+  list-style-type: none;
+}
+
+nav > img {
+  display: none;
+}
+
+.envelope > li > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 0 0 32px;
+}
+
+nav > a {
+  color: #fff;
+}
+
+.mainhead {
+  width: 566px;
+  height: 160px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+}
+
+.headline {
+  background-image: url(image/Illustration-header\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  display: grid;
+  grid-template-columns: auto;
+  height: 30rem;
+  width: 100%;
+  background-position: 690px 25%;
+  background-size: 45%;
+}
+
+.headline h2 {
+  padding: 5px 0 0 72px;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  width: 75rem;
+}
+
+.headline p {
+  padding: 10px 0 0 72px;
+  width: 26.5rem;
+  height: 123px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+}
 
 aside {
   position: relative;
@@ -658,57 +645,93 @@ aside > ul {
   list-style-type: none;
 }
 
+ 
 aside > ul > li {
-  padding-bottom: 0.5rem;
+ padding-bottom: 0.5rem;
 }
 
 .work {
   width: 100%;
+  margin-top: 50px;
+  padding: 10px 55px;
 }
 
 section div.first-box {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+div.imgsection{
+  width: 50%;
+}
+
+div.imgsection img{
+  width: 100%;
 }
 
 .ttwork {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  height: 250px;
 }
 
-
-
-/* .work > .first-box > .headtext > h2 {
-  font-size: 2rem;
-  font-family: 'Crete Round', serif;
-  justify-items: center;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 52px;
-} */
-/* .imgsection {
-  display: flex;
-  border: 1px solid red;
+.ttwork h3{
   width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .imgsection img {
-  padding-top: 2rem;
+  font-size: 30px;
 }
 
-.imgsection > .ttwork > p {
-  width: 90rem;
-  line-height: 1rem;
+.ttwork p {
+  width: 100%;
+  font-size: 17px;
 }
 
-.imgsection > .ttwork > ul {
-  margin-top: -1rem;
-} */
-/* 
+.ttwork ul{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.ttwork li{
+  list-style: none;
+  padding: 5px;
+  border: 1px solid #091E42;
+  margin-right: 10px;
+}
+
+.ttwork button{
+  width: 40%;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px;
+  border: 0px;
+  margin-top: 10px;
+}
+
+.work h2{
+  width: 100%;
+  text-align: center;
+  font-family: 'Crete Round';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  color: #091E42;
+  margin-bottom: 30px;
+}
+
+section hr{
+  width: 100%;
+}
+
+section div.cartt{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .carttt {
   display: none;
 }
@@ -724,7 +747,7 @@ section div.first-box {
 
 .cartt2 {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   gap: 1.5rem;
   justify-content: center;
   width: 100%;
@@ -814,10 +837,10 @@ section div.first-box {
 
 /* start of about */
 .about {
-  background-image: url(image/illustration-about-me-mobile.png);
+  background-image: url(image/about-desktop.png);
   background-repeat: no-repeat;
-  background-position: 884px top;
-  background-size: 30%;
+  background-position: 690px 18%;
+  background-size: 45%;
   margin-top: 5rem;
 }
 
@@ -831,24 +854,23 @@ section div.first-box {
 }
 
 .about > p {
-  width: 566px;
+  width: 400px;
   height: 148px;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 100;
+  font-size: 17px;
   line-height: 32px;
   color: #F4F5F7;
 }
-
 .about > button {
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
-width: 161px;
-height: 48px;
-background: #F55800;
+ flex-direction: row;
+ align-items: center;
+ padding: 12px;
+ gap: 10px;
+ width: 161px;
+ height: 48px;
+ background: #F55800;
 }
 
 .listing {
@@ -882,12 +904,14 @@ background: #F55800;
   line-height: 40px;
   align-items: center;
   color: #262626;
+  width: 100%;
+  margin-left: 3rem;
 }
 
-.last-button {
-  position: inherit;
-  top: 5.5rem;
-  right: 18rem;
+.contact2 .last-button {
+  position: absolute;
+  top: 17rem;
+  right: 24rem;
 }
 
 .footericon > .foot-desk {
@@ -900,5 +924,54 @@ background: #F55800;
 .footericon > .foot-desk > li {
   padding: 5px 10px 8px 8px;
 }
-} */
 
+.contact2 textarea {
+  width: 100%;
+}
+
+/* to hover buttons */
+
+.about > button:hover {
+  background: var(--btncol2);
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+}
+
+.contact2 .last-button:hover {
+  background: var(--btncol2);
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+}
+
+.cart > button:hover {
+  background: var(--btncol2);
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+}
+
+.ttwork > button:hover {
+  background: var(--btncol2);
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+}
+}
+
+@media screen and (min-width: 1200px) {
+.cartt2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+    
+}
+
+.ttwork p {
+  width: 90%;
+}
+
+.ttwork {
+  height: 200px;
+}
+
+div.first-box{
+  padding: 0px 120px;
+}
+}
