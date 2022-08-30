@@ -709,15 +709,16 @@ form#f2 {
     margin-top: 20px;
   }
 
-  #about > button:hover, .carttt > #cf1 button:hover,
+  .carttt > #cf1 button {
+    display: block;
+  }
+
+  #about > button:hover,
+  .carttt > #cf1 button:hover,
   #work > .first-box > .imgsection > .ttwork > button:hover {
     background: var(--btncol2);
     border: 1px solid var(--maincolor);
     color: var(--maincolor);
-  }
-
-  .carttt > #cf1 button {
-    display: block;
   }
 
   .line1 {
