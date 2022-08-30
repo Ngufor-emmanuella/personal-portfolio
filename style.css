@@ -532,3 +532,200 @@ input[type="submit"]:disabled {
 form#f2 {
   display: none;
 }
+
+/* start of desktop version design*/
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    height: 72px;
+    padding-top: 10px;
+  }
+
+  nav > img{
+    display: none;
+  }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 7px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#headline {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Resources/Images/Illustration-header.png");
+  background-size: 47%;
+  background-position: 100%;
+  background-position-y: 10px;
+}
+
+#headline > ul {
+  position: relative;
+  float: left;
+  top: -21rem;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+
+#headline > #mainhead{
+font-size: 55px ;
+margin-top: 20px;
+width: 80%;
+margin-left: 80px;
+line-height: 4rem;
+}
+
+#headline > .subhead {
+  font-size: 25px;
+  margin-top: 5px;
+  width: 80%;
+  margin-left: 80px;
+}
+
+#headline > p{
+  font-size:16px;
+  width: 55%;
+  margin-top: 5px;
+  margin-left: 80px;
+  line-height: 2rem;
+}
+
+.headtext{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  padding-left: 30px 20px;
+}
+
+#work > .first-box > .headtext > h2 {
+  border-bottom: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  max-width: 600px;
+  margin-left: 10px;
+}
+
+/* to position hr */
+.first-box > hr {
+  position: relative;
+  top: -9.5rem;
+  left: 16rem;
+  width: 60%;
+  background-color: #212121;
+}
+
+.imgsection {
+  display: flex;
+  flex-direction: row;
+  height: 300%;
+
+}
+
+#work > .first-box > .imgsection > img {
+  width: 60%;
+  height: 523px;
+}
+
+.ttwork {
+  height: 19%;
+  width: 40%;
+}
+
+#work > .carttt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#about {
+  background-image: url("Resources/Images/illustration-aboutme.png");
+  background-size: 50%;
+  background-position-y: 85px;
+}
+
+#about > p {
+  width: 50%;
+}
+
+#about > button {
+  padding: 5px;
+}
+
+#about > .line {
+  width: 100%;
+}
+
+.listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+#contact form {
+  width: 70%;
+}
+
+textarea {
+  background-color: #fbf8f7;
+}
+
+input[type="submit"]:enabled {
+  width: 35%;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.carttt > .cart button {
+  display: none;
+}
+
+.carttt > #cf1 button {
+  display: block;
+}
+
+.carttt > #cf1 button:hover, #work > .first-box > .imgsection > .ttwork > button:hover, #about > button:hover {
+  background: var(--btncol2);
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+}
+}
+
+/* another media query */
+@media only screen and (min-width: 1000px) {
+  #work > .carttt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
