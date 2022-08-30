@@ -516,12 +516,11 @@ input[type="submit"]:disabled {
 }
 
 .line1 {
-  width: 6rem;
-  height: 3px;
-  border: none;
-  border-radius: 10px;
-  padding-bottom: 0;
-  background: var(--line);
+  display: none;
+}
+
+.ohh {
+  display: none;
 }
 
 /* all the display none for mobile */
@@ -631,7 +630,8 @@ line-height: 4rem;
 }
 
 /* to position hr */
-.first-box > hr {
+.first-box > .ohh {
+  display: block;
   position: relative;
   top: -9.5rem;
   left: 16rem;
@@ -718,6 +718,10 @@ input[type="submit"]:enabled {
   background: var(--btncol2);
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
+}
+
+.line1 {
+  display: none;
 }
 }
 
