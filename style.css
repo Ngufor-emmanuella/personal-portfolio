@@ -451,7 +451,7 @@ div.imgsection {
 .contact form {
   font-family: 'Inter', sans-serif;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
