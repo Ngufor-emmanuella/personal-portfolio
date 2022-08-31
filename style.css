@@ -685,6 +685,7 @@ form#f2 {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    width: 10rem;
   }
 
   #about > .line {
@@ -727,6 +728,12 @@ form#f2 {
     letter-spacing: 0.03em;
   }
 
+  input[type="submit"]:hover {
+    background: var(--btncol2);
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+  }
+
   .carttt > #cf1 button {
     display: block;
     background: #f55800;
@@ -741,8 +748,7 @@ form#f2 {
   }
 
   #about > button:hover,
-  .carttt > #cf1 button:hover,
-  #work > .first-box > .imgsection > .ttwork > button:hover {
+  .carttt > #cf1 button:hover {
     background: var(--btncol2);
     border: 1px solid var(--maincolor);
     color: var(--maincolor);
@@ -751,13 +757,19 @@ form#f2 {
   #work > .first-box > .imgsection > .ttwork > button {
     background: #f55800;
     border: none;
-    width: 8rem;
+    width: 10rem;
     font-family: 'Inter', sans-serif;
     color: var(--txtcolor);
     font-weight: 700;
     font-size: 17px;
     letter-spacing: 0.03em;
     padding: 12px;
+  }
+
+  #work > .first-box > .imgsection > .ttwork > button:hover {
+    background: var(--btncol2);
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
   }
 
   .line1 {
