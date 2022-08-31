@@ -331,7 +331,7 @@ nav > ul {
 }
 
 #work > .first-box > .imgsection > .ttwork > button {
-  background:  #F55800;
+  background: #f55800;
   border: none;
   width: 8rem;
   padding: 12px;
@@ -677,8 +677,7 @@ form#f2 {
   }
 
   #about > button {
-    padding: 5px;
-    background:  #F55800;
+    background: #f55800;
     border: none;
     font-family: 'Inter', sans-serif;
     color: var(--txtcolor);
@@ -717,7 +716,7 @@ form#f2 {
     width: 35%;
     margin: 0;
     margin-top: 20px;
-    background:  #F55800;
+    background: #f55800;
     border: none;
     padding: 12px;
     font-family: 'Inter', sans-serif;
@@ -730,7 +729,7 @@ form#f2 {
 
   .carttt > #cf1 button {
     display: block;
-    background:  #F55800;
+    background: #f55800;
     border: none;
     padding: 12px;
     font-family: 'Inter', sans-serif;
@@ -749,19 +748,17 @@ form#f2 {
     color: var(--maincolor);
   }
 
-  
-#work > .first-box > .imgsection > .ttwork > button {
-  background:  #F55800;
-  border: none;
-  width: 8rem;
-  padding: 0.5rem;
-  font-family: 'Inter', sans-serif;
-  color: var(--txtcolor);
-  font-weight: 700;
-  font-size: 17px;
-  letter-spacing: 0.03em;
-  padding: 12px;
-}
+  #work > .first-box > .imgsection > .ttwork > button {
+    background: #f55800;
+    border: none;
+    width: 8rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    padding: 12px;
+  }
 
   .line1 {
     display: none;
