@@ -713,7 +713,7 @@ form#f2 {
     position: relative;
     top: -9.1rem;
     left: 21rem;
-    width: 60%;
+    width: 48%;
     background-color: #212121;
   }
 
@@ -951,76 +951,281 @@ form#f2 {
     display: none;
   }
 
-  /* start of displaying cards i grid */
+  /* start of displaying cards i grid ,general box holding cards */
   .cartt2 {
     display: grid;
-    grid-template-columns: repeat(3, 32%);
-    gap: 3%;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    width: 92%;
+    justify-content: center;
+    margin-left: 0;
   }
 
+  /* by giving each card a height and width paves a place for the cards */
+
   .cartbox {
-    background: url(Resources/Images/Img-Placeholder\(8\)---.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 435px;
+    width: 377px;
+  }
+
+  .cart > .soft {
+    position: relative;
+    top: -17rem;
+    color: #fff;
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    left: 18px;
+  }
+
+  .projbg {
+    height: 435px;
+    width: 377px;
   }
 
   .cartt2 > #c2 {
-    background: url(Resources/Images/ImgPlaceholder\(9\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 377px;
+    height: 435px;
   }
 
-  .cartt2 > #c3 {
-    background: url(Resources/Images/Mask-Group2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  .cartt2 > .projbg1 {
+    /* background: url(Resources/Images/Mask-Group2.png);
+    background-repeat: no-repeat; */
+    
+    width: 377px;
+    height: 435px;
+    
   }
 
-  .cartt2 > #c4 {
-    background: url(Resources/Images/Img-Placeholder.png);
+  .cartt2 > .projone {
+    /* background: url(Resources/Images/Img-Placeholder.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 20rem;
+    height: 20rem; */
+    width: 377px;
+    height: 435px;
   }
 
-  .cartt2 > .cart > h2 {
-    color: red;
-    font-family: 'Crete Round', sans-serif;
+  .cart > .software {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 33px;
-    color: #fff;
-    margin: 35px;
+    font-size: 32px;
+    line-height: 44px;
     position: relative;
-    top: 3rem;
+    top: -16rem;
+    color: #fff;
+    left: 30px;
   }
 
-  .cartt2 > .cart > p {
-    font-family: 'Inter', sans-serif;
+  .cart > .sogood {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 17px;
+    line-height: 24px;
+    left: 30px;
+    position: relative;
+    top: -15rem;
     color: #fff;
-    margin-top: 50px;
-    margin-left: 8px;
+  }
+
+  .cartt2 > .cart > .under {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 236px;
+    height: 40px;
+    top: -14rem;
+    color: #fff;
+    position: relative;
+    left: 31px;
+  }
+
+  .cartt2 > .cart > .two {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    top: -15rem;
+    color: #fff;
+    left: 18px;
+    line-height: 1.4rem;
   }
 
   .cartt2 > .cart > ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 236px;
+    height: 40px;
+    position: relative;
+    top: -14rem;
     color: #fff;
-    border: 1px solid red;
+    left: 18px;
   }
 
-  .carttt2 > .cart > ul > .engine {
-    list-style-type: none;
-    border-right: 1px solid red;
-
+  .cartt2 > .cart > ul > .engine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 95px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.24);
   }
 
+  .cart > .web {
+    width: 337px;
+    height: 38px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    position: relative;
+    top: -14rem;
+    color: #fff;
+    left: 18px;
+  }
 
-}
+  .cart > .website {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    top: -12rem;
+    color: #fff;
+    left: 18px;
+  }
+
+  .cartt2 > .cart > .website2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 236px;
+    height: 40px;
+    position: relative;
+    top: -11rem;
+    color: #fff;
+    left: 18px;
+  }
+
+  .cartbox > .firstbut {
+    position: relative;
+    width: 369px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    background: #F55800;
+    border:  none;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cart > .secondbut {
+    position: relative;
+    width: 369px;
+    height: 58px;
+    left: 0px;
+    top: -154px;
+    background: #F55800;
+    border:  none;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cart > .thirdbut {
+    position: relative;
+    width: 376px;
+    height: 58px;
+    left: 0px;
+    top: -197px;
+    background: #F55800;
+    border:  none;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cart > .fourthbut {
+    position: relative;
+    width: 368px;
+    height: 58px;
+    left: 0px;
+    top: -197px;
+    background: #F55800;
+    border:  none;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+    /* opacity zero to make buttons not to show */
+  }
+
+  .cart > .fifthbut {
+    position: relative;
+    width: 376px;
+    height: 58px;
+    left: 0px;
+    top: -154px;
+    background: #F55800;
+    border:  none;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cartbox > .firstbut:hover, .cart > .secondbut:hover, .cart > .thirdbut:hover, .cart > .fourthbut:hover, .cart > .fifthbut:hover {
+    opacity: 2;
+    /* opacity 1 or 2 to make the elements appear  */
+  }
 
 /* another media query */
 @media only screen and (min-width: 1000px) {
@@ -1068,6 +1273,43 @@ nav > a {
   top: -16rem;
   gap: 0.8rem;
   flex-direction: column;
+}
+
+.cartt2 {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 3%;
+  width: 92%;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+/* button cards hover */
+.ok {
+  width: 100px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.border {
+  position: absolute;
+width: 369px;
+height: 58px;
+left: 0px;
+top: 0px;
+
+background: #F55800;
 }
 
 }
