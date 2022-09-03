@@ -1056,7 +1056,7 @@ form#f2 {
   .cart > .sogood {
     width: 184px;
     height: 72px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1113,7 +1113,7 @@ form#f2 {
   .cart > .web {
     width: 215px;
     height: 38px;
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -1303,7 +1303,6 @@ form#f2 {
       gap: 0.8rem;
       flex-direction: column;
     }
-
 
     /* button cards hover */
     .ok {
@@ -1540,7 +1539,7 @@ form#f2 {
       background: #f55800;
       border: none;
       color: #fff;
-      font-family: 'Inter',sans-serif;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 23px;
