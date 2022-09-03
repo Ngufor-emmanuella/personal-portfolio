@@ -1006,7 +1006,7 @@ form#f2 {
     color: #fff;
     width: 10rem;
     height: 81px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -1042,7 +1042,7 @@ form#f2 {
   .cart > .software {
     width: 206px;
     height: 81px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -1056,7 +1056,7 @@ form#f2 {
   .cart > .sogood {
     width: 184px;
     height: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1084,7 +1084,7 @@ form#f2 {
   .cartt2 > .cart > .two {
     width: 13rem;
     height: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1113,7 +1113,7 @@ form#f2 {
   .cart > .web {
     width: 215px;
     height: 38px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -1127,7 +1127,7 @@ form#f2 {
   .cart > .website {
     width: 211px;
     height: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1161,7 +1161,7 @@ form#f2 {
     background: #f55800;
     border: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1179,7 +1179,7 @@ form#f2 {
     background: #f55800;
     border: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1197,7 +1197,7 @@ form#f2 {
     background: #f55800;
     border: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1215,7 +1215,7 @@ form#f2 {
     background: #f55800;
     border: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1235,7 +1235,7 @@ form#f2 {
     background: #f55800;
     border: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1385,7 +1385,7 @@ form#f2 {
       color: #fff;
       width: 234px;
       height: 81px;
-      font-family: 'Crete Round';
+      font-family: 'Crete Round', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 32px;
@@ -1421,7 +1421,7 @@ form#f2 {
     .cart > .software {
       width: 285px;
       height: 81px;
-      font-family: 'Crete Round';
+      font-family: 'Crete Round', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 33px;
@@ -1435,7 +1435,7 @@ form#f2 {
     .cart > .sogood {
       width: 310px;
       height: 72px;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -1463,7 +1463,7 @@ form#f2 {
     .cartt2 > .cart > .two {
       width: 19rem;
       height: 72px;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 21px;
@@ -1492,7 +1492,7 @@ form#f2 {
     .cart > .web {
       width: 665px;
       height: 38px;
-      font-family: 'Crete Round';
+      font-family: 'Crete Round', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 36px;
@@ -1506,7 +1506,7 @@ form#f2 {
     .cart > .website {
       width: 286px;
       height: 72px;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -1540,7 +1540,7 @@ form#f2 {
       background: #f55800;
       border: none;
       color: #fff;
-      font-family: 'Inter';
+      font-family: 'Inter',sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 23px;
@@ -1558,7 +1558,7 @@ form#f2 {
       background: #f55800;
       border: none;
       color: #fff;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 23px;
@@ -1576,7 +1576,7 @@ form#f2 {
       background: #f55800;
       border: none;
       color: #fff;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 23px;
@@ -1594,7 +1594,7 @@ form#f2 {
       background: #f55800;
       border: none;
       color: #fff;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 23px;
@@ -1614,7 +1614,7 @@ form#f2 {
       background: #f55800;
       border: none;
       color: #fff;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 23px;

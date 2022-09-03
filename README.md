@@ -33,7 +33,7 @@ In this project i built a desktop portfolio version webpage with a min width of 
 
 ## Authors
 
-👤 **Author1**
+👤 **Ngufor Emmanuella**
 
 - GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
 - Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
