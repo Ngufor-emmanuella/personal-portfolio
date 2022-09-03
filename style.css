@@ -104,6 +104,12 @@ nav > ul {
   padding-left: 0.5rem;
 }
 
+.lists ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #headline > ul {
   list-style-type: none;
   display: flex;
@@ -113,6 +119,17 @@ nav > ul {
   padding-top: 2rem;
   padding-bottom: 3.5rem;
   padding-left: 0.5rem;
+}
+
+.lists ul li {
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  padding: 12px;
 }
 
 #headline > ul > li {
@@ -148,31 +165,37 @@ nav > ul {
   color: var(--maincolor);
 }
 
-#contact > h2 {
-  font-family: 'Inter', sans-serif;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: 216px;
-  width: 20rem;
-  color: var(--txtcolor2);
-  font-weight: 800;
-}
-
 .headtext {
   margin: 0;
   padding: 0;
   border: none;
 }
 
+#contact > h2 {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 216px;
+  width: 20rem;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 5px;
+  color: #172b4d;
+}
+
 #work > .first-box > .headtext > h2 {
   margin: 5rem 2rem 5rem 0;
-  font-size: 2.3rem;
-  font-family: 'Crete Round', serif;
-  font-weight: 500;
   justify-items: center;
   padding-bottom: 50px;
   border-bottom: 1.5px solid var(--line);
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
 }
 
 .first-box {
@@ -188,28 +211,6 @@ nav > ul {
   width: 19.2rem;
   padding-bottom: 2rem;
   padding-right: 2rem;
-}
-
-#about > .listing > ul > li > h3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: center;
-}
-
-#about > .listing > ul > li > a {
-  text-decoration: none;
-  color: var(--txtcolor);
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 43px;
-  letter-spacing: 0;
-  text-align: center;
 }
 
 #work > .first-box > .imgsection > .ttwork > h3 {
@@ -238,28 +239,18 @@ nav > ul {
 }
 
 #work > .first-box > .imgsection > .ttwork > p {
-  font-family: 'Inter', sans-serif;
   padding-top: 0.5rem;
   margin-right: 1.98rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  max-width: 20rem;
-  font-size: 1rem;
   letter-spacing: 0;
   text-align: left;
   flex: none;
-  font-style: normal;
   flex-grow: 0;
-}
-
-#about > .listing > ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
   font-family: 'Inter', sans-serif;
-  line-height: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
 }
 
 #work > .carttt > .cart > ul {
@@ -290,25 +281,26 @@ nav > ul {
 
 #work > .first-box > .imgsection > .ttwork > ul > li {
   font-family: 'Inter', sans-serif;
-  border: 1px solid var(--line);
+  color: #091e42;
+  border: 1px solid #8993a4;
   padding: 0.5rem;
   margin-right: 0.5rem;
 }
 
 #about > button {
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-top: 1rem;
-  width: 9.2rem;
-  height: 2rem;
-  background: var(--maincolor);
-  color: var(--txtcolor);
+  width: 161px;
+  height: 48px;
+  background-color: #ff6b00;
   border: none;
-  padding: 5px 3px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 150px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 #work .carttt > .cart > button {
@@ -331,14 +323,21 @@ nav > ul {
 }
 
 #work > .first-box > .imgsection > .ttwork > button {
-  background: var(--maincolor);
+  padding: 12px;
+  line-height: 24px;
+  width: 124px;
+  height: 48px;
+  background-color: #ff6b00;
   border: none;
-  width: 8rem;
-  padding: 0.5rem;
   font-family: 'Inter', sans-serif;
-  color: var(--txtcolor);
-  font-weight: 400;
-  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+
+  /* transition: 0.5s; */
+  text-decoration: none;
 }
 
 .imgsection {
@@ -404,7 +403,7 @@ nav > ul {
   border: none;
   height: 2px;
   width: 20.2rem;
-  margin: 13rem 0 9rem 0;
+  margin: 3rem 0 9rem 0;
 }
 
 .line2 {
@@ -413,6 +412,24 @@ nav > ul {
 
 .aboutlist {
   padding-left: 0.7rem;
+}
+
+/* start of frame works */
+.lists {
+  margin: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lists h1 {
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
 }
 
 /* contact selector */
@@ -427,11 +444,12 @@ nav > ul {
 }
 
 #contact form {
-  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
 
 input[type="text"],
@@ -445,7 +463,9 @@ input[type="email"] {
   color: #979493;
   border: none;
   border-bottom: 1px solid #dbd8d7;
-  padding: 1rem;
+  margin-top: 46px;
+  padding: 12px;
+  margin-bottom: 15px;
 }
 
 .footericon {
@@ -463,8 +483,7 @@ input[type="email"] {
 
 textarea {
   border: none;
-  height: 7rem;
-  background: var(--txtcolor);
+  background: #fbf8f7;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 24px;
@@ -473,28 +492,51 @@ textarea {
   font-weight: 400;
   color: var(--bkcolor);
   margin-top: 1.5rem;
+  padding: 12px;
+  height: 150px;
 }
 
 form > input[type="submit"] {
-  margin-top: 2rem;
-  margin-left: 4.5rem;
+  text-align: center;
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background: #ff6b00;
   border: none;
-  background: var(--maincolor);
-  color: var(--txtcolor);
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: center;
-  height: 3rem;
-  width: 10rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  align-self: center;
 }
 
 input[type="submit"]:enabled {
-  background: var(--maincolor);
+  text-align: center;
+  padding: 12px;
+  width: 161px;
+  height: 48px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background: #ff6b00;
   border: none;
-  color: var(--backc);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  cursor: pointer;
+  align-self: center;
+  position: relative;
+  right: 73px;
 }
 
 input[type="submit"]:hover {
@@ -516,12 +558,11 @@ input[type="submit"]:disabled {
 }
 
 .line1 {
-  width: 6rem;
-  height: 3px;
-  border: none;
-  border-radius: 10px;
-  padding-bottom: 0;
-  background: var(--line);
+  display: none;
+}
+
+.ohh {
+  display: none;
 }
 
 /* all the display none for mobile */
@@ -531,4 +572,1054 @@ input[type="submit"]:disabled {
 
 form#f2 {
   display: none;
+}
+
+/* start of desktop version design */
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    height: 72px;
+    padding-top: 10px;
+  }
+
+  nav > a {
+    text-decoration: none;
+    color: var(--txtcolor);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 0 0.5rem 85px;
+  }
+
+  nav > img {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-top: 7px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin: 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+
+  #headline {
+    /* width: 100%;
+    height: 100vh; */
+    background-image: url("Resources/Images/Illustration-header.png");
+
+    /* background-size: 47%; */
+
+    /* background-position: 100%; */
+
+    /* background-position-y: 10px; */
+
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cartt2 > .cart > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 189px;
+    height: 40px;
+    position: relative;
+    top: -14rem;
+    color: #fff;
+    left: 11px;
+  }
+
+  #headline > ul {
+    position: relative;
+    right: 2rem;
+    top: -17rem;
+    gap: 0.8rem;
+    flex-direction: column;
+  }
+
+  #headline > #mainhead {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-size: 55px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    margin-left: 80px;
+  }
+
+  #headline > .subhead {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+    margin-left: 80px;
+  }
+
+  #headline > p {
+    font-size: 16px;
+    width: 455px;
+    margin-top: 5px;
+    margin-left: 80px;
+    line-height: 2rem;
+  }
+
+  .headtext {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    padding-left: 30px 20px;
+  }
+
+  #about > h2 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 92px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+  }
+
+  #contact > h2 {
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 10px;
+    color: #262626;
+    width: 320px;
+    height: 256px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    top: -3.5rem;
+    line-height: 52px;
+  }
+
+  #work > .first-box > .headtext > h2 {
+    border-bottom: none;
+    text-align: center;
+    position: relative;
+    max-width: 600px;
+    margin-left: 10px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  /* to position hr */
+  .first-box > .ohh {
+    display: block;
+    position: relative;
+    top: -9.1rem;
+    left: 21rem;
+    width: 57%;
+    background-color: #212121;
+  }
+
+  .imgsection {
+    display: flex;
+    flex-direction: row;
+    height: 300%;
+  }
+
+  #work > .first-box > .imgsection > .ttwork > h3 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  #about > p {
+    width: 416px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #work > .first-box > .imgsection > .ttwork > p {
+    padding-top: 0.5rem;
+    margin-right: 1.98rem;
+    letter-spacing: 0;
+    text-align: left;
+    flex: none;
+    flex-grow: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #091e42;
+    width: 21rem;
+    margin-left: -0.5rem;
+  }
+
+  .lists li {
+    align-self: flex-start;
+  }
+
+  #work > .first-box > .imgsection > .ttwork > ul > li {
+    font-family: 'Inter', sans-serif;
+    color: #091e42;
+    border: 1px solid #8993a4;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  #work > .first-box > .imgsection > img {
+    width: 60%;
+    height: 523px;
+  }
+
+  .ttwork {
+    height: 19%;
+    width: 40%;
+  }
+
+  #work > .carttt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #about {
+    background-image: url("Resources/Images/illustration-aboutme.png");
+    background-repeat: no-repeat;
+    background-position: 100% 8%;
+    background-size: 39%;
+  }
+
+  .carttt > .cart button {
+    display: none;
+  }
+
+  #about > button {
+    width: 161px;
+    height: 48px;
+    background-color: #ff6b00;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 150px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 5px;
+  }
+
+  #about > .line {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  #contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+
+  #contact form {
+    width: 70%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #979493;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    margin-top: 46px;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 140%;
+  }
+
+  textarea {
+    background-color: #fbf8f7;
+    width: 140%;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    font-weight: 400;
+    color: var(--bkcolor);
+    margin-top: 1.5rem;
+    padding: 12px;
+    height: 150px;
+  }
+
+  input[type="submit"]:enabled {
+    width: 161px;
+    margin-top: 20px;
+    background: #f55800;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    color: var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    position: relative;
+    left: -18px;
+  }
+
+  input[type="submit"]:hover {
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .carttt > #cf1 button {
+    display: block;
+    background: #f55800;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    color: var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  #about > button:hover,
+  .carttt > #cf1 button:hover {
+    background: var(--btncol2);
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+  }
+
+  #work > .first-box > .imgsection > .ttwork > button {
+    background: #f55800;
+    border: none;
+    width: 11rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    padding: 12px;
+  }
+
+  #work > .first-box > .imgsection > .ttwork > button:hover {
+    background: var(--btncol2);
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+  }
+
+  .line1 {
+    display: none;
+  }
+
+  .frameworks {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 35px;
+  }
+
+  .lists {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .lists h1 {
+    text-align: left;
+    grid-row: 1;
+  }
+
+  .carttt > .cart {
+    display: none;
+  }
+
+  /* start of displaying cards i grid ,general box holding cards with width of 100% */
+  .cartt2 {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+    width: 100%;
+    justify-content: center;
+    margin-left: -0.5rem;
+    margin-bottom: 3rem;
+  }
+
+  /* by giving each card a height and width paves a place for the cards in grid */
+
+  .cartbox {
+    margin-bottom: 194;
+    margin-right: 2px;
+    width: 14rem;
+    height: 435px;
+  }
+
+  .cartbox > .proj1 {
+    height: 435px;
+    width: 14rem;
+  }
+
+  .cart > .soft {
+    position: relative;
+    top: -17rem;
+    color: #fff;
+    width: 10rem;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    left: 18px;
+  }
+
+  .cart > .projbg {
+    height: 435px;
+    width: 14rem;
+  }
+
+  .cartt2 > .c2 {
+    width: 14rem;
+    height: 435px;
+  }
+
+  .cartt2 > .c3 {
+    width: 14rem;
+    height: 435px;
+  }
+
+  .cart > .projbg1 {
+    width: 14rem;
+    height: 435px;
+  }
+
+  .cart > .projone {
+    width: 14rem;
+    height: 435px;
+  }
+
+  .cart > .software {
+    width: 206px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+    top: -16rem;
+    color: #fff;
+    left: 6px;
+  }
+
+  .cart > .sogood {
+    width: 184px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3rem;
+    left: 10px;
+    position: relative;
+    top: -17rem;
+    color: #fff;
+  }
+
+  .cartt2 > .cart > .under {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 189px;
+    height: 40px;
+    top: -14rem;
+    color: #fff;
+    position: relative;
+    left: 10px;
+  }
+
+  .cartt2 > .cart > .two {
+    width: 13rem;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    top: -18rem;
+    color: #fff;
+    left: 18px;
+    line-height: 1.4rem;
+  }
+
+  .cartt2 > .cart > ul > .engine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 4px;
+    width: 95px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .cartt2 > #c4 {
+    width: 14rem;
+    height: 435px;
+  }
+
+  .cart > .web {
+    width: 215px;
+    height: 38px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+    position: relative;
+    top: -14rem;
+    color: #fff;
+    left: 18px;
+  }
+
+  .cart > .website {
+    width: 211px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top: -13.8rem;
+    color: #fff;
+    left: 18px;
+    line-height: 1.3rem;
+  }
+
+  .cartt2 > .cart > .website2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 189px;
+    height: 40px;
+    position: relative;
+    top: -11rem;
+    color: #fff;
+    left: 18px;
+  }
+
+  .cartbox > .firstbut {
+    position: relative;
+    width: 14rem;
+    height: 58px;
+    left: 0;
+    top: -4px;
+    background: #f55800;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cart > .secondbut {
+    position: relative;
+    width: 14rem;
+    height: 58px;
+    left: 0;
+    top: -154px;
+    background: #f55800;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cart > .thirdbut {
+    position: relative;
+    width: 14rem;
+    height: 58px;
+    left: 0;
+    top: -197px;
+    background: #f55800;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cart > .fourthbut {
+    position: relative;
+    width: 14rem;
+    height: 58px;
+    left: 0;
+    top: -197px;
+    background: #f55800;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+
+    /* opacity zero to make buttons not to show */
+  }
+
+  .cart > .fifthbut {
+    position: relative;
+    width: 14rem;
+    height: 58px;
+    left: 0;
+    top: -154px;
+    background: #f55800;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    opacity: 0;
+  }
+
+  .cartbox > .firstbut:hover,
+  .cart > .secondbut:hover,
+  .cart > .thirdbut:hover,
+  .cart > .fourthbut:hover,
+  .cart > .fifthbut:hover {
+    opacity: 2;
+    background: #f55800;
+    border: 1px solid #f55800;
+    color: #fff;
+
+    /* opacity 1 or 2 to make the elements appear  */
+  }
+
+  /* another media query */
+  @media only screen and (min-width: 1000px) {
+    #work > .carttt {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    nav > a {
+      text-decoration: none;
+      color: var(--txtcolor);
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+
+      /* font-weight: 500; */
+      padding: 1rem 0 0.5rem 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      font-size: 15px;
+      text-decoration: none;
+      margin-left: 90px;
+    }
+
+    .cartt2 > .cart > ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+      gap: 10px;
+      width: 21px;
+      height: 40px;
+      position: relative;
+      top: -14rem;
+      color: #fff;
+      left: 11px;
+    }
+
+    #headline > ul {
+      position: relative;
+      right: 2rem;
+      top: -16rem;
+      gap: 0.8rem;
+      flex-direction: column;
+    }
+
+    /* button cards hover */
+    .ok {
+      width: 100px;
+      height: 24px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 24px;
+
+      /* identical to box height, or 141% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+
+    .border {
+      position: absolute;
+      width: 369px;
+      height: 58px;
+      left: 0;
+      top: 0;
+      background: #f55800;
+    }
+
+    input[type="submit"]:enabled {
+      width: 161px;
+      margin-top: 20px;
+      background: #f55800;
+      border: none;
+      padding: 12px;
+      font-family: 'Inter', sans-serif;
+      color: var(--txtcolor);
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      position: relative;
+      left: -75px;
+    }
+
+    input[type="submit"]:hover {
+      background: #fff5e1;
+      border: 1px solid #f55800;
+      color: #f55800;
+    }
+
+    /* start of displaying cards i grid ,general box holding cards with width of 100% */
+    .cartt2 {
+      display: grid;
+      grid-template-columns: repeat(3, 30%);
+      gap: 7%;
+      width: 94%;
+      justify-content: center;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      margin-bottom: 5rem;
+    }
+
+    /* by giving each card a height and width paves a place for the cards in grid */
+
+    .cartbox {
+      margin-bottom: 194;
+      margin-right: 2px;
+      width: 20rem;
+      height: 435px;
+    }
+
+    .cartbox > .proj1 {
+      height: 435px;
+      width: 20rem;
+    }
+
+    .cart > .soft {
+      position: relative;
+      top: -18rem;
+      color: #fff;
+      width: 234px;
+      height: 81px;
+      font-family: 'Crete Round', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      left: 18px;
+    }
+
+    .cart > .projbg {
+      height: 435px;
+      width: 20rem;
+    }
+
+    .cartt2 > .c2 {
+      width: 20rem;
+      height: 435px;
+    }
+
+    .cartt2 > .c3 {
+      width: 20rem;
+      height: 435px;
+    }
+
+    .cart > .projbg1 {
+      width: 20rem;
+      height: 435px;
+    }
+
+    .cart > .projone {
+      width: 20rem;
+      height: 435px;
+    }
+
+    .cart > .software {
+      width: 285px;
+      height: 81px;
+      font-family: 'Crete Round', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 33px;
+      line-height: 34px;
+      position: relative;
+      top: -17;
+      color: #fff;
+      left: 6px;
+    }
+
+    .cart > .sogood {
+      width: 310px;
+      height: 72px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.6rem;
+      left: 10px;
+      position: relative;
+      top: -16.5rem;
+      color: #fff;
+    }
+
+    .cartt2 > .cart > .under {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+      gap: 10px;
+      width: 210px;
+      height: 40px;
+      top: -14rem;
+      color: #fff;
+      position: relative;
+      left: 10px;
+    }
+
+    .cartt2 > .cart > .two {
+      width: 19rem;
+      height: 72px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      position: relative;
+      top: -18rem;
+      color: #fff;
+      left: 18px;
+      line-height: 1.5rem;
+    }
+
+    .cartt2 > .cart > ul > .engine {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 4px 4px;
+      width: 630px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.24);
+    }
+
+    .cartt2 > #c4 {
+      width: 20rem;
+      height: 435px;
+    }
+
+    .cart > .web {
+      width: 665px;
+      height: 38px;
+      font-family: 'Crete Round', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 44px;
+      position: relative;
+      top: -15rem;
+      color: #fff;
+      left: 18px;
+    }
+
+    .cart > .website {
+      width: 286px;
+      height: 72px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      position: relative;
+      top: -14.7rem;
+      color: #fff;
+      left: 18px;
+      line-height: 1.5rem;
+    }
+
+    .cartt2 > .cart > .website2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+      gap: 10px;
+      width: 221px;
+      height: 40px;
+      position: relative;
+      top: -11rem;
+      color: #fff;
+      left: 18px;
+    }
+
+    .cartbox > .firstbut {
+      position: relative;
+      width: 20rem;
+      height: 58px;
+      left: 0;
+      top: -4px;
+      background: #f55800;
+      border: none;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      opacity: 0;
+    }
+
+    .cart > .secondbut {
+      position: relative;
+      width: 20rem;
+      height: 58px;
+      left: 0;
+      top: -154px;
+      background: #f55800;
+      border: none;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      opacity: 0;
+    }
+
+    .cart > .thirdbut {
+      position: relative;
+      width: 20rem;
+      height: 58px;
+      left: 0;
+      top: -197px;
+      background: #f55800;
+      border: none;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      opacity: 0;
+    }
+
+    .cart > .fourthbut {
+      position: relative;
+      width: 20rem;
+      height: 58px;
+      left: 0;
+      top: -197px;
+      background: #f55800;
+      border: none;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      opacity: 0;
+
+      /* opacity zero to make buttons not to show */
+    }
+
+    .cart > .fifthbut {
+      position: relative;
+      width: 20rem;
+      height: 58px;
+      left: 0;
+      top: -154px;
+      background: #f55800;
+      border: none;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      opacity: 0;
+    }
+  }
 }
