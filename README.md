@@ -20,7 +20,7 @@ An animation property was also added in the nav bars in the header section to an
 
 ### Install
 
-- Copy the github link for the repository [repository link]( https://ngufor-emmanuella.github.io/personal-portfolio/)
+- Copy the github link for the repository
 - Open the git terminal and type git clone then paste the repository link
 
 ### Run tests
@@ -30,7 +30,7 @@ An animation property was also added in the nav bars in the header section to an
 ### Deployment
 
 - It will be deployed to the github page
-
+-live version of project [repository link](https://ngufor-emmanuella.github.io/personal-portfolio/)
 
 ## Authors
 
