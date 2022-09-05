@@ -152,9 +152,10 @@ nav > ul {
 @keyframes logo-item {
   from {
     margin-left: 80%;
-    width: 100%
+    width: 100%;
   }
-  to{
+
+  to {
     margin-left: 0%;
     width: 90%;
   }
