@@ -611,22 +611,25 @@ form#f2 {
   padding-top: 7px;
   flex-direction: column;
   transform: treanslateY(-100%);
+  top: 7rem;
 }
 
 nav > .popupbars > li {
   list-style-type: none;
   margin: 10px;
-  padding-bottom: 3rem;
+  border-bottom: 1px solid #DFE1E6;
+  text-transform: capitalize;
 }
 
 nav > .popupbars > li > a {
-  color: #fff;
-  font-size: 25px;
+  color: #FFF5E1;
   text-decoration: none;
   margin-left: 25px;
-  font-family: roboto, sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
-  line-height: 20px;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 /* start of desktop version design */
