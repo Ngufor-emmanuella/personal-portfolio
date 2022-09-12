@@ -591,12 +591,54 @@ form#f2 {
   display: none;
 }
 
+/* add popup window */
+#hambu {
+  z-index: 100;
+  cursor: pointer;
+}
+
+.markx {
+  position: relative;
+  left: 16rem;
+  padding-top: 10px;
+}
+
+ nav > .popupbars {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  padding-top: 7px;
+  flex-direction: column;
+  transform: treanslateY(-100%);
+}
+
+nav > .popupbars > li {
+  list-style-type: none;
+  margin: 10px;
+  padding-bottom: 3rem;
+}
+
+nav > .popupbars > li > a {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 25px;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+}
+
 /* start of desktop version design */
 @media only screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  .popup {
+    display: none;
   }
 
   nav {
@@ -657,6 +699,10 @@ form#f2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  #hambu, .popup {
+    display: none;
   }
 
   .cartt2 > .cart > ul {
