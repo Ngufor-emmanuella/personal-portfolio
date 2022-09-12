@@ -1,18 +1,21 @@
-const image = document.querySelector('.hambuger');
-const secondIcon = document.querySelector('.popup');
+const ham = document.querySelector('.hambuger');
+const links= document.querySelector('#navlinks');
+const exit = document.querySelector('.markx');
 
-image.addEventListener('click', () => {
-  image.classList.add('.popoff');
-  secondIcon.classList.remove('.popoff');
-  document.querySelector('#headline').classList.add('blur');
-  document.querySelector('.logo-item').classList.add('blur');
-});
+ham.addEventListener('click', () => {
+  ham.style.display='none';
+  links.style.display='block';
+  exist.style.display='block';
+})
 
-const markx = document.querySelector('.markx');
-markx.addEventListener('click', () => {
-  secondIcon.classList.add('.popoff');
-  image.classList.remove('.popoff');
-  document.querySelector('#headline').classList.remove('blur');
-  document.querySelector('.logo-item').classList.remove('blur');
-});
+exit.addEventListener('click', () => {
+  ham.style.display='block';
+  links.style.display='none';
+  exist.style.display='none';
+})
 
+links.addEventListener('click', () => {
+  ham.style.display='block';
+  links.style.display='none';
+  exist.style.display='none';
+})
