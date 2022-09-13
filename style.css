@@ -57,7 +57,7 @@ nav > ul {
   z-index: 1;
   padding: 2rem;
   animation-name: slidein;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 
 @keyframes slidein {

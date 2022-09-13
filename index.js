@@ -5,7 +5,7 @@ const exit = document.querySelector('.markx');
 ham.addEventListener('click', () => {
   ham.style.display='none';
   links.style.display='block';
-  exist.style.display='block';
+  exit.style.display='block';
 })
 
 exit.addEventListener('click', () => {
@@ -17,5 +17,5 @@ exit.addEventListener('click', () => {
 links.addEventListener('click', () => {
   ham.style.display='block';
   links.style.display='none';
-  exist.style.display='none';
+  exit.style.display='none';
 })
