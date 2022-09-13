@@ -644,11 +644,6 @@ form#f2 {
 
 
 /* add popup window */
-<<<<<<< HEAD
-#hambu {
-  cursor: pointer;
-  padding-top: 0.5rem;
-}
 
 /* start of desktop version design */
 @media only screen and (min-width: 768px) {
