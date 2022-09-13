@@ -711,7 +711,7 @@ form#f2 {
     line-height: 44px;
     border: 0;
   }
-  
+
   nav > ul > li > a {
     color: #fff5e1;
     text-decoration: none;
@@ -731,7 +731,8 @@ form#f2 {
     justify-content: center;
   }
 
-  #hambu, .popup {
+  #hambu,
+  .popup {
     display: none;
   }
 
