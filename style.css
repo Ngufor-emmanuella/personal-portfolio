@@ -591,46 +591,51 @@ form#f2 {
   display: none;
 }
 
+
 /* add popup window */
-#hambu {
-  z-index: 100;
-  cursor: pointer;
+
+@media only screen and (max-width: 576px) {
+  #hambu {
+    z-index: 100;
+    cursor: pointer;
+  }
+  
+  .markx {
+    position: relative;
+    left: 16rem;
+    padding-top: 10px;
+  }
+  
+   nav > .popupbars {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    padding-top: 7px;
+    flex-direction: column;
+    transform: treanslateY(-100%);
+    top: 7rem;
+  }
+  
+  nav > .popupbars > li {
+    list-style-type: none;
+    margin: 10px;
+    border-bottom: 1px solid #DFE1E6;
+    text-transform: capitalize;
+  }
+  
+  nav > .popupbars > li > a {
+    color: #FFF5E1;
+    text-decoration: none;
+    margin-left: 25px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
 }
 
-.markx {
-  position: relative;
-  left: 16rem;
-  padding-top: 10px;
-}
-
- nav > .popupbars {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 65%;
-  padding-top: 7px;
-  flex-direction: column;
-  transform: treanslateY(-100%);
-  top: 7rem;
-}
-
-nav > .popupbars > li {
-  list-style-type: none;
-  margin: 10px;
-  border-bottom: 1px solid #DFE1E6;
-  text-transform: capitalize;
-}
-
-nav > .popupbars > li > a {
-  color: #FFF5E1;
-  text-decoration: none;
-  margin-left: 25px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-}
 
 /* start of desktop version design */
 @media only screen and (min-width: 768px) {
