@@ -98,6 +98,11 @@ nav > ul > li > a {
   display: none;
 }
 
+#hambu {
+  padding-top: 12px;
+  cursor: pointer;
+}
+
 /* headline selector */
 #headline {
   display: flex;
