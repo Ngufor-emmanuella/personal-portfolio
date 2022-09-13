@@ -11,7 +11,7 @@ ham.addEventListener('click', () => {
 exit.addEventListener('click', () => {
   ham.style.display='block';
   links.style.display='none';
-  exist.style.display='none';
+  exit.style.display='none';
 })
 
 links.addEventListener('click', () => {
