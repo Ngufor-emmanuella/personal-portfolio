@@ -80,7 +80,7 @@ pens.forEach((pen) => {
                         <li>${pen.language[1]}</li>
                         <li>${pen.language[2]}</li>
                     </ul>
-                    <button id="press" type="button" name="See-Project">${pen.button}</button>
+                    <button class="press" type="button" name="See-Project">${pen.button}</button>
             </div>`;
             carttt.innerHTML += first;
 });
@@ -144,7 +144,7 @@ let cards = document.querySelector('.cartt2');
 cards.innerHTML = `<div class="cartbox" id="c1">
 <img class="proj1" src="${books[0].image}" alt="${books[0].alt}"/>
 
-    <button id="press" class="firstbut" type="button" name="See-Project">${books[0].button}</button>
+    <button class="press" class="firstbut" type="button" name="See-Project">${books[0].button}</button>
 </div>
 
 <div class="cart c2">
@@ -157,7 +157,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[1].language[1]}</li>
     <li class="engine">${books[1].language[2]}</li>
 </ul>
-<button id="press" class="thirdbut" type="button" name="See-Project">${books[1].button}</button>
+<button class="press" class="thirdbut" type="button" name="See-Project">${books[1].button}</button>
 </div>
 
 <div class="cart c3">
@@ -169,7 +169,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[2].language[1]}</li>
     <li class="engine">${books[2].language[2]}</li>
 </ul>
-<button id="press" class="secondbut" type="button" name="See-Project">${books[2].button}</button>
+<button class="press" class="secondbut" type="button" name="See-Project">${books[2].button}</button>
 </div>
 
 <div class="cart" id="c4">
@@ -181,7 +181,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[3].language[1]}</li>
     <li class="engine">${books[3].language[1]}</li>
 </ul>
-<button id="press" class="fourthbut" type="button" name="See-Project">${books[3].button}</button>
+<button class="press" class="fourthbut" type="button" name="See-Project">${books[3].button}</button>
 </div>
 
 <div class="cart c2">
@@ -193,7 +193,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[4].language[1]}</li>
     <li class="engine">${books[4].language[2]}</li>
 </ul>
-<button id="press" class="thirdbut" type="button" name="See-Project">${books[4].button}</button>
+<button class="press" class="thirdbut" type="button" name="See-Project">${books[4].button}</button>
 </div>
 
 <div class="cart c3">
@@ -205,7 +205,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[5].language[1]}</li>
     <li class="engine">${books[5].language[2]}</li>
 </ul>
-<button id="press" class="fifthbut" type="button" name="See-Project">${books[5].button}</button>
+<button class="press" class="fifthbut" type="button" name="See-Project">${books[5].button}</button>
 </div> `;
 
 //start of popup desktop
@@ -250,7 +250,7 @@ pop.innerHTML = `<div class="popup-first">
 </div>`;
 
 //codes to display the popup
-const press = document.querySelector('#press');
+const press = document.querySelector('.press');
 const show = document.querySelector('.popup');
 const cancel = document.querySelector('.cancel');
 
