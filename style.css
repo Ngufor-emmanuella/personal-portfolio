@@ -648,6 +648,118 @@ form#f2 {
   display: none;
 }
 
+/* start of popup tenth anniv mobile*/
+.popup {
+  display: none;
+  width: 100%;
+}
+
+.popup-first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.popup-first .popupa {
+  position: relative;
+  top: 2.3rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup-first .popups {
+  display: none;
+}
+
+.popup-first .cancel {
+  padding: 3rem;
+  margin-right: -15px;
+}
+
+.popup > ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 2rem;
+
+}
+
+.popup > ul > li {
+  margin-right: 0.5rem;
+  border: 1px solid #dfe1e6;
+  margin-top: -1rem;
+  padding: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3C3A39;
+
+}
+
+.popup-sec img {
+  margin-top: 1.3rem;
+  width: 100%;
+  margin-left: -13px;
+}
+
+.popup-sec > p {
+  width:20rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: -0.8rem;
+  margin-top: 1rem;
+}
+
+.popup-third {
+  display: flex;
+  margin-left: -0.7rem;
+  margin-top: 1rem;
+  margin-right: 1.2rem;
+}
+
+.popup-third button:nth-child(1) {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 4px 5px 7px 5px;
+  border: 1px solid #ff6b00;
+  margin-right: 0.7rem;
+  width: 50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.popup-third button:nth-child(2) {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 4px 5px 7px 5px;
+  border: 1px solid #ff6b00;
+  width: 50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+button:nth-child(1):hover, button:nth-child(2):hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+}
+
 /* start of desktop version design */
 @media only screen and (min-width: 768px) {
   * {
@@ -1347,9 +1459,125 @@ form#f2 {
     background: #f55800;
     border: 1px solid #f55800;
     color: #fff;
-
     /* opacity 1 or 2 to make the elements appear  */
   }
+
+  /* start of popup tenth aniv destop */
+  .popup {
+    display: none;
+    width: 100%;
+  }
+  
+  .popup-first {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .popup-first .popupa{
+    display: none;
+  }
+
+  .popup-first .popups {
+    display: block
+  }
+
+  .popup-first .popups {
+    position: relative;
+    top: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 44px;
+    color: #172b4d;
+}
+  
+  .popup > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .popup > ul > li {
+    margin-right: 0.5rem;
+    border: 1px solid #ebecf0;
+    margin-top: -1rem;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3C3A39;
+  }
+
+  .popup-sec {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .popup-sec img {
+    margin-top: 1.3rem;
+    width: 100%;
+    margin-left: -13px;
+    padding-right: 2rem;
+  }
+  
+  .popup-sec > p {
+    width: 53%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-left: -0.8rem;
+    margin-top: 1rem;
+  }
+  
+  .popup-third {
+    display: flex;
+    position: relative;
+    left: 29rem;
+    bottom: 3.5rem;
+  }
+  
+  .popup-third button:nth-child(1) {
+    background-color: #ff6b00;
+    color: #fff;
+    padding: 4px 5px 7px 5px;
+    border: 1px solid #ff6b00;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    width: 13%;
+  }
+  
+  .popup-third button:nth-child(2) {
+    background-color: #ff6b00;
+    color: #fff;
+    padding: 4px 5px 7px 5px;
+    border: 1px solid #ff6b00;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    width: 16%;
+  }
+  
+  button:nth-child(1):hover, button:nth-child(2):hover {
+    color: #f55800;
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+  }
+  
 
   /* another media query */
   @media only screen and (min-width: 1000px) {
@@ -1407,8 +1635,6 @@ form#f2 {
       font-weight: 700;
       font-size: 17px;
       line-height: 24px;
-
-      /* identical to box height, or 141% */
       display: flex;
       align-items: center;
       text-align: center;
@@ -1714,6 +1940,46 @@ form#f2 {
       line-height: 24px;
       letter-spacing: 2px;
       opacity: 0;
+    }
+
+    /* start of buttons for popup desktop aniv */
+    .popup-third {
+      display: flex;
+      position: relative;
+      left: 40rem;
+      bottom: 3.5rem;
+    }
+    
+    .popup-third button:nth-child(1) {
+      background-color: #ff6b00;
+      color: #fff;
+      padding: 4px 5px 7px 5px;
+      border: 1px solid #ff6b00;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      width: 13%;
+    }
+    
+    .popup-third button:nth-child(2) {
+      background-color: #ff6b00;
+      color: #fff;
+      padding: 4px 5px 7px 5px;
+      border: 1px solid #ff6b00;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      width: 16%;
+    }
+    
+    button:nth-child(1):hover, button:nth-child(2):hover {
+      color: #f55800;
+      background-color: #fff5e1;
+      border: 1px solid #f55800;
     }
   }
 }

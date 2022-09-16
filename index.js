@@ -20,7 +20,7 @@ links.addEventListener('click', () => {
   exit.style.display='none';
 })
 
-// start of cards
+//start of cards
 const carttt = document.querySelector('.carttt');
 const pens = [{
   heading: "Professional Art ",
@@ -80,12 +80,12 @@ pens.forEach((pen) => {
                         <li>${pen.language[1]}</li>
                         <li>${pen.language[2]}</li>
                     </ul>
-                    <button type="button" name="See-Project">${pen.button}</button>
+                    <button id="press" type="button" name="See-Project">${pen.button}</button>
             </div>`;
             carttt.innerHTML += first;
 });
 
-// start of desktop carts
+//start of desktop carts
 const cartt2 = document.querySelector('.cartt2');
 const books = [{
   image: "Resources/Images/Mask-Group.png",
@@ -103,100 +103,148 @@ const books = [{
 },
 
 {
-  imageC: "Resources/Images/Mask-Group2.png",
-  altC: "art painting",
-  headingC: "Website Protfolio",
-  paragraphC: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  languageC: ['Html', 'Bootstrap', 'Ruby'],
-  buttonC: "See Project"
+  image: "Resources/Images/Mask-Group2.png",
+  alt: "art painting",
+  heading: "Website Protfolio",
+  paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  language: ['Html', 'Bootstrap', 'Ruby'],
+  button: "See Project"
 },
 
 {
-  imageD: "Resources/Images/imageplace4.png",
-  altD:"image picture",
-  headingD: "Profesional Art",
-  subHeadingD: "Printing Data More",
-  paragraphD: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  languageD: ['Html', 'Bootstrap', 'Ruby'],
-  buttonD: "See Project"
+  image: "Resources/Images/imageplace4.png",
+  alt:"image picture",
+  heading: "Profesional Art",
+  subHeading: "Printing Data More",
+  paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  language: ['Html', 'Bootstrap', 'Ruby'],
+  button: "See Project"
 },
 
 {
-  imageB: "Resources/Images/ImgPlaceholder(9).png",
-  altB: "printing pic",
-  headingB: "Data Dashboard Healthcare",
-  paragraphB: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  languageB: ['Html', 'Bootstrap', 'Ruby'],
-  buttonB: "See Project"
+  image: "Resources/Images/ImgPlaceholder(9).png",
+  alt: "printing pic",
+  heading: "Data Dashboard Healthcare",
+  paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  language: ['Html', 'Bootstrap', 'Ruby'],
+  button: "See Project"
 },
 
 {
-  imageC: "Resources/Images/Mask-Group2.png",
-  altC: "art painting",
-  headingC: "Website Protfolio",
-  paragraphC: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  languageC: ['Html', 'Bootstrap', 'Ruby'],
-  buttonC: "See Project"
+  image: "Resources/Images/Mask-Group2.png",
+  alt: "art painting",
+  heading: "Website Protfolio",
+  paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  language: ['Html', 'Bootstrap', 'Ruby'],
+  button: "See Project"
 }
 ];
-books.forEach((book) => {
-  const second = `<div class="cartbox" id="c1">
-  <img class="proj1" src=${book.image} ${book.alt}/>
-      <button class="firstbut" type="button" name="See-Project">${book.button}</button>
-</div>`
-cartt2.innerHTML += second;
-})
 
-books.forEach((book) => {
-  const third = `<div class="cart c2">
-  <img class="projbg" src=${book.image} ${book.alt}/>
-   <h2 class="soft">${book.heading}</h2>
-  <p class="two">${book.heading}</p>
-  <ul>
-       <li class="engine">${book.language[0]}</li>
-      <li class="engine">${book.language[1]}</li>
-      <li class="engine">${book.language[2]}</li>
-  </ul>
-  <button class="thirdbut" type="button" name="See-Project">${book.button}</button>
-</div>`
-cartt2.innerHTML += third;
-})
+let cards = document.querySelector('.cartt2');
+cards.innerHTML = `<div class="cartbox" id="c1">
+<img class="proj1" src="${books[0].image}" alt="${books[0].alt}"/>
 
-books.forEach((book) => {
-  const fourth = ` <div class="cart c3">
-  <img class="projbg1" src=${book.imageC} ${book.altC}/>
-  <h2 class="web"> ${book.headingC} </h2>
-  <p class="website">${book.paragraphC}</p>
-  <ul class="website2">
-      <li class="engine ">${book.languageC[0]}</li>
-      <li class="engine">${book.languageC[1]}</li>
-      <li class="engine">${book.languageC[2]}</li>
-  </ul>
-  <button class="secondbut" type="button" name="See-Project">${book.buttonC}</button>
-</div>`
-cartt2.innerHTML += fourth;
-})
+    <button id="press" class="firstbut" type="button" name="See-Project">${books[0].button}</button>
+</div>
 
-books.forEach((book) => {
-  const fifth = `<div class="cart" id="c4">
-  <img class="projone" src=${book.imageD} ${book.altD}/>
-  <h2 class="software">${book.headingD} <span>${book.subHeadingD}</span></h2>
-  <p class="sogood">${book.paragraphD}</p>
-  <ul class="under">
-      <li class="engine">${book.languageD[0]}</li>
-      <li class="engine">${book.languageD[1]}</li>
-      <li class="engine">${book.languageD[2]}</li>
-  </ul>
-  <button class="fourthbut" type="button" name="See-Project">${book.buttonD}</button>
-</div>`
-cartt2.innerHTML += fifth;
-})
+<div class="cart c2">
+<img class="projbg" src="${books[1].image}" alt="${books[1].alt}"/>
 
+ <h2 class="soft">${books[1].heading}</h2>
+<p class="two">${books[1].paragraph}</p>
+<ul> 
+      <li class="engine">${books[1].language[0]}</li>
+    <li class="engine">${books[1].language[1]}</li>
+    <li class="engine">${books[1].language[2]}</li>
+</ul>
+<button id="press" class="thirdbut" type="button" name="See-Project">${books[1].button}</button>
+</div>
 
+<div class="cart c3">
+<img class="projbg1" src="${books[2].image}" alt="${books[2].alt}"/>
+<h2 class="web">${books[2].heading} </h2>
+<p class="website">${books[2].paragraph}</p>
+<ul class="website2">
+    <li class="engine ">${books[2].language[0]}</li>
+    <li class="engine">${books[2].language[1]}</li>
+    <li class="engine">${books[2].language[2]}</li>
+</ul>
+<button id="press" class="secondbut" type="button" name="See-Project">${books[2].button}</button>
+</div>
 
+<div class="cart" id="c4">
+<img class="projone" src="${books[3].image}" alt="${books[3].alt}"/>
+<h2 class="software">${books[3].heading} ${books[3].subHeading}</h2>
+<p class="sogood">${books[3].paragraph}</p>
+<ul class="under">
+    <li class="engine">${books[3].language[0]}</li>
+    <li class="engine">${books[3].language[1]}</li>
+    <li class="engine">${books[3].language[1]}</li>
+</ul>
+<button id="press" class="fourthbut" type="button" name="See-Project">${books[3].button}</button>
+</div>
 
+<div class="cart c2">
+<img class="projbg" src="${books[4].image}" alt="${books[4].alt}"/>
+<h2 class="soft">${books[4].heading}</h2>
+<p class="two">${books[4].paragraph}</p>
+<ul>
+    <li class="engine">${books[4].language[0]}</li>
+    <li class="engine">${books[4].language[1]}</li>
+    <li class="engine">${books[4].language[2]}</li>
+</ul>
+<button id="press" class="thirdbut" type="button" name="See-Project">${books[4].button}</button>
+</div>
 
+<div class="cart c3">
+<img class="projbg" src="${books[5].image}" alt="${books[5].alt}"/>
+<h2 class="web">${books[5].heading}</h2>
+<p class="website">${books[5].paragraph}</p>
+<ul class="website2">
+    <li class="engine">${books[5].language[0]}</li>
+    <li class="engine">${books[5].language[1]}</li>
+    <li class="engine">${books[5].language[2]}</li>
+</ul>
+<button id="press" class="fifthbut" type="button" name="See-Project">${books[5].button}</button>
+</div> `;
 
+//start of popup desktop
+const popup = document.querySelector('.popup');
+const ruler= [{
+  headingFirst: "Multi Post Stories",
+  headingSecond: "Keeping track of hundreds of components website",
+  firstImage: "Resources/Images/markx.png",
+  firstAlt: "cancel icon",
+  firstList: ['Html', 'Bootstrap', 'Ruby on rails'],
+  secondImage: "Resources/Images/picturehambuger.png",
+  secondAlt: "tenth anniversary pic",
+  // description: "A daily selection of privately personalized reads; no accounts or sign-ups required,
+  // has been the industry's standard I can help you build a product , feature or website Look through some
+  // of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.",
+  buttonA: "See Live ",
+  buttonAImg: "Resources/Images/searchbutt.png",
+  buttonAAlt: "search button",
+  buttonB: "See Source ",
+  buttonBImg: "Resources/Images/whiteangelist.png",
+  buttonBAlt: "github icon"
+}];
 
-
-
+let pop = document.querySelector('.popup');
+pop.innerHTML = `<div class="popup-first">
+<h2 class="popupa">${ruler[0].headingFirst}</h2>
+<h2 class="popups">${ruler[0].headingSecond}</h2>
+<img class="cancel" src="${ruler[0].firstImage}" alt="${ruler[0].firstAlt}"></li>
+</div>
+<ul>
+<li>${ruler[0].firstList[0]}</li>
+<li>${ruler[0].firstList[1]}</li>
+<li>${ruler[0].firstList[2]}</li>
+</ul>
+<div class="popup-sec">
+<img src="${ruler[0].secondImage}" alt="${ruler[0].secondAlt}">
+<p>${ruler.description}</p>
+</div>
+<div class="popup-third">
+<button>${ruler[0].buttonA}<img src="${ruler[0].buttonAImg}"alt="${ruler[0].buttonAAlt}"></button>
+<button>${ruler[0].buttonB} <img src="${ruler[0].buttonBImg}" alt="${ruler[0].buttonBAlt}"></button>
+</div>`;
