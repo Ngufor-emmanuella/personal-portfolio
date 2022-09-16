@@ -248,3 +248,21 @@ pop.innerHTML = `<div class="popup-first">
 <button>${ruler[0].buttonA}<img src="${ruler[0].buttonAImg}"alt="${ruler[0].buttonAAlt}"></button>
 <button>${ruler[0].buttonB} <img src="${ruler[0].buttonBImg}" alt="${ruler[0].buttonBAlt}"></button>
 </div>`;
+
+//codes to display the popup
+const press = document.querySelector('#press');
+const show = document.querySelector('.popup');
+const cancel = document.querySelector('cancel');
+
+press.addEventListener('click', () => {
+  press.style.display= 'none';
+  show.style.display= 'block';
+  cancel.style.display= 'block';
+})
+
+cancel.addEventListener('click', () => {
+  cancel.style.display= 'none';
+  show.style.display= 'none';
+  press.style.display= 'block';
+})
+
