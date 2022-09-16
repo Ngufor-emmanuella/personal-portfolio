@@ -80,7 +80,7 @@ pens.forEach((pen) => {
                         <li>${pen.language[1]}</li>
                         <li>${pen.language[2]}</li>
                     </ul>
-                    <button class="press" type="button" name="See-Project">${pen.button}</button>
+                    <button id="press" type="button" class="click" name="See-Project">${pen.button}</button>
             </div>`;
             carttt.innerHTML += first;
 });
@@ -144,7 +144,7 @@ let cards = document.querySelector('.cartt2');
 cards.innerHTML = `<div class="cartbox" id="c1">
 <img class="proj1" src="${books[0].image}" alt="${books[0].alt}"/>
 
-    <button class="press" class="firstbut" type="button" name="See-Project">${books[0].button}</button>
+    <button id="press" class="firstbut click" type="button" name="See-Project">${books[0].button}</button>
 </div>
 
 <div class="cart c2">
@@ -157,7 +157,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[1].language[1]}</li>
     <li class="engine">${books[1].language[2]}</li>
 </ul>
-<button class="press" class="thirdbut" type="button" name="See-Project">${books[1].button}</button>
+<button id="press" class="thirdbut click" type="button" name="See-Project">${books[1].button}</button>
 </div>
 
 <div class="cart c3">
@@ -169,7 +169,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[2].language[1]}</li>
     <li class="engine">${books[2].language[2]}</li>
 </ul>
-<button class="press" class="secondbut" type="button" name="See-Project">${books[2].button}</button>
+<button id="press" class="secondbut click" type="button" name="See-Project">${books[2].button}</button>
 </div>
 
 <div class="cart" id="c4">
@@ -181,7 +181,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[3].language[1]}</li>
     <li class="engine">${books[3].language[1]}</li>
 </ul>
-<button class="press" class="fourthbut" type="button" name="See-Project">${books[3].button}</button>
+<button id="press" class="fourthbut click" type="button" name="See-Project">${books[3].button}</button>
 </div>
 
 <div class="cart c2">
@@ -193,7 +193,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[4].language[1]}</li>
     <li class="engine">${books[4].language[2]}</li>
 </ul>
-<button class="press" class="thirdbut" type="button" name="See-Project">${books[4].button}</button>
+<button id="press" class="thirdbut click" type="button" name="See-Project">${books[4].button}</button>
 </div>
 
 <div class="cart c3">
@@ -205,7 +205,7 @@ cards.innerHTML = `<div class="cartbox" id="c1">
     <li class="engine">${books[5].language[1]}</li>
     <li class="engine">${books[5].language[2]}</li>
 </ul>
-<button class="press" class="fifthbut" type="button" name="See-Project">${books[5].button}</button>
+<button id="press" class="fifthbut click" type="button" name="See-Project">${books[5].button}</button>
 </div> `;
 
 //start of popup desktop
@@ -218,9 +218,7 @@ const ruler= [{
   firstList: ['Html', 'Bootstrap', 'Ruby on rails'],
   secondImage: "Resources/Images/picturehambuger.png",
   secondAlt: "tenth anniversary pic",
-  // description: "A daily selection of privately personalized reads; no accounts or sign-ups required,
-  // has been the industry's standard I can help you build a product , feature or website Look through some
-  // of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industrys standard I .",
   buttonA: "See Live ",
   buttonAImg: "Resources/Images/searchbutt.png",
   buttonAAlt: "search button",
@@ -242,7 +240,7 @@ pop.innerHTML = `<div class="popup-first">
 </ul>
 <div class="popup-sec">
 <img src="${ruler[0].secondImage}" alt="${ruler[0].secondAlt}">
-<p>${ruler.description}</p>
+<p>${ruler[0].description}</p>
 </div>
 <div class="popup-third">
 <button>${ruler[0].buttonA}<img src="${ruler[0].buttonAImg}"alt="${ruler[0].buttonAAlt}"></button>
@@ -250,16 +248,20 @@ pop.innerHTML = `<div class="popup-first">
 </div>`;
 
 //codes to display the popup
-const press = document.querySelector('.press');
+const press = document.querySelectorAll('.click');
 const show = document.querySelector('.popup');
 const cancel = document.querySelector('.cancel');
 
-press.addEventListener('click', () => {
-  press.style.display= 'none';
-  show.style.display= 'block';
-  cancel.style.display= 'block';
+//add event to open popup
+press.forEach((button) => {
+  button.addEventListener('click', () => {
+    button.style.display= 'none';
+    show.style.display= 'block';
+    cancel.style.display= 'block';
+  })
 })
 
+//add event to close popup
 cancel.addEventListener('click', () => {
   cancel.style.display= 'none';
   show.style.display= 'none';

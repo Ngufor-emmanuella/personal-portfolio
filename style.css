@@ -655,6 +655,9 @@ form#f2 {
   position: fixed;
   bottom: 4rem;
   height: 100vh;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 1);
+  
 }
 
 .popup-first {
@@ -670,7 +673,7 @@ form#f2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 29px;
+  font-size: 31px;
   line-height: 44px;
   color: #172b4d;
 }
@@ -681,13 +684,14 @@ form#f2 {
 
 .popup-first .cancel {
   padding: 3rem;
-  margin-right: -15px;
+  margin-right: 20px;
 }
 
 .popup > ul {
   display: flex;
   list-style-type: none;
   margin-top: 2rem;
+  margin-left: -5px;
 
 }
 
@@ -707,8 +711,8 @@ form#f2 {
 
 .popup-sec img {
   margin-top: 1.3rem;
-  width: 100%;
-  margin-left: -13px;
+  width: 90%;
+  margin-left: -10px;
 }
 
 .popup-sec > p {
@@ -726,8 +730,9 @@ form#f2 {
 .popup-third {
   display: flex;
   margin-left: -0.7rem;
-  margin-top: 1rem;
-  margin-right: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 3rem;
 }
 
 .popup-third button:nth-child(1) {
@@ -1468,10 +1473,12 @@ button:nth-child(1):hover, button:nth-child(2):hover {
   /* start of popup tenth aniv destop */
   .popup {
     display: none;
-    width: 100%;
+    width: 93%;
     position: fixed;
-    top: 0;
-    height: 100vh;
+    top: 7rem;
+    height: 75vh;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 1);
   }
   
   .popup-first {
@@ -1495,9 +1502,10 @@ button:nth-child(1):hover, button:nth-child(2):hover {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 44px;
     color: #172b4d;
+    margin-left: 20px;
 }
   
   .popup > ul {
@@ -1506,6 +1514,7 @@ button:nth-child(1):hover, button:nth-child(2):hover {
     list-style-type: none;
     margin-top: -1rem;
     margin-bottom: 1.5rem;
+    margin-left: 1rem;
   }
   
   .popup > ul > li {
@@ -1529,12 +1538,12 @@ button:nth-child(1):hover, button:nth-child(2):hover {
   .popup-sec img {
     margin-top: 1.3rem;
     width: 100%;
-    margin-left: -13px;
+    margin-left: 15px;
     padding-right: 2rem;
   }
   
   .popup-sec > p {
-    width: 53%;
+    width: 52%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -1548,7 +1557,7 @@ button:nth-child(1):hover, button:nth-child(2):hover {
   .popup-third {
     display: flex;
     position: relative;
-    left: 29rem;
+    left: 30rem;
     bottom: 3.5rem;
   }
   
@@ -1560,9 +1569,11 @@ button:nth-child(1):hover, button:nth-child(2):hover {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
-    width: 13%;
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
   }
   
   .popup-third button:nth-child(2) {
@@ -1576,6 +1587,8 @@ button:nth-child(1):hover, button:nth-child(2):hover {
     font-size: 14px;
     line-height: 24px;
     width: 16%;
+    display: flex;
+    justify-content: space-between;
   }
   
   button:nth-child(1):hover, button:nth-child(2):hover {
