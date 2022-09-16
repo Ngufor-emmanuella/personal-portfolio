@@ -652,6 +652,9 @@ form#f2 {
 .popup {
   display: none;
   width: 100%;
+  position: fixed;
+  bottom: 4rem;
+  height: 100vh;
 }
 
 .popup-first {
@@ -1466,6 +1469,9 @@ button:nth-child(1):hover, button:nth-child(2):hover {
   .popup {
     display: none;
     width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100vh;
   }
   
   .popup-first {

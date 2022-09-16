@@ -252,7 +252,7 @@ pop.innerHTML = `<div class="popup-first">
 //codes to display the popup
 const press = document.querySelector('#press');
 const show = document.querySelector('.popup');
-const cancel = document.querySelector('cancel');
+const cancel = document.querySelector('.cancel');
 
 press.addEventListener('click', () => {
   press.style.display= 'none';
