@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project i built the portfolio cards section of the html dynamically and added a popup window for both mobile and desktop dynamically in javascript
+In this project a validation form is built using javascript to guide users on how to fill the form and to prevent the form from being submitted incase the user does not folow the required recommendations to fill in the form 
 ## Built With
 
 - HTML
@@ -34,6 +34,12 @@ In this project i built the portfolio cards section of the html dynamically and 
 ## Authors
 
 👤 **Ngufor Emmanuella**
+
+- GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
+- Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
+- LinkedIn: [Nguforemmanuella](https://linkedin.com/in/Nguforemmanuella)
+
+👤 **Nejjari001**
 
 - GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
 - Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)

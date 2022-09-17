@@ -397,12 +397,22 @@ nav > ul > li > a {
   padding: 0 1rem;
 }
 
-/* .popup > ul {
-  display: flex;
-  list-style-type: none;
+.small {
+  color: rgb(255, 0, 0);
+ border: 3px solid red;
+  width: auto;
+  padding: 0;
+  margin: 1rem 0;
+  border-radius: 0.5em;
+  background-color: #fadddb;
+  gap: 1rem;
   margin-top: 1rem;
-  margin-left: 7px;
-} */
+}
+
+#errorEmail, #errorName, #errorMsg{
+  color: rgb(250, 12, 12);
+  margin-top:2rem;
+}
 
 #work > .first-box > .imgsection > .ttwork > ul {
   list-style-type: none;
