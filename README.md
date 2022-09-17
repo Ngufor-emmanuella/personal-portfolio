@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project a validation form is built using javascript to guide users on how to fill the form and to prevent the form from being submitted incase the user does not folow the required recommendations to fill in the form 
+In this project I built html dynamically where users can click onthe button and the popup appears
 ## Built With
 
 - HTML
