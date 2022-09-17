@@ -436,7 +436,7 @@ nav > ul > li > a {
   color: #fff;
   padding: 4px 5px 7px 5px;
   border: 1px solid #ff6b00;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   align-items: center;
@@ -830,13 +830,13 @@ form#f2 {
   margin-right: -5px;
 }
 
-.popup-third {
+/* .popup-third {
   display: flex;
   margin-left: 11px;
   margin-top: 0.9rem;
   margin-bottom: 0.5rem;
   margin-right: 1rem;
-}
+} */
 
 .popup-first .popupa {
   display: block;
@@ -1109,6 +1109,19 @@ form#f2 {
     font-size: 32px;
   }
 
+  .popup-sec p {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    height: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
   #about > p {
     width: 416px;
     font-family: 'Inter', sans-serif;
@@ -1119,18 +1132,7 @@ form#f2 {
     text-align: left;
   }
 
-  .popup-sec p {
-    width: 100%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    height: 100px;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    margin-left: 0;
-    margin-top: 1rem;
-  }
+  
 
   #work > .first-box > .imgsection > .ttwork > p {
     padding-top: 0.5rem;
@@ -1295,25 +1297,12 @@ form#f2 {
     color: #f55800;
   }
 
-  .carttt > #cf1 button {
-    display: block;
-    background: #f55800;
-    border: none;
-    padding: 12px;
-    font-family: 'Inter', sans-serif;
-    color: var(--txtcolor);
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-  }
-
   .popup-third button:nth-child(1) {
     background-color: #ff6b00;
     color: #fff;
     padding: 4px 5px 7px 5px;
     border: 1px solid #ff6b00;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     align-items: center;
@@ -1329,7 +1318,7 @@ form#f2 {
     color: #fff;
     padding: 4px 5px 2px 5px;
     border: 1px solid #ff6b00;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     align-items: center;
@@ -1338,6 +1327,26 @@ form#f2 {
     width: 50%;
     display: flex;
     justify-content: space-between;
+  }
+
+  button:nth-child(1):hover,
+  button:nth-child(2):hover {
+    color: #f55800;
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .carttt > #cf1 button {
+    display: block;
+    background: #f55800;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    color: var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
   }
 
   button:nth-child(1):hover,
@@ -1701,10 +1710,6 @@ form#f2 {
 
   .popup-first .popupa {
     display: none;
-  }
-
-  .popup-first .popups {
-    display: block;
   }
 
   .popup-first .popups {
