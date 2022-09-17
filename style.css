@@ -651,12 +651,15 @@ form#f2 {
 /* start of popup tenth anniv mobile*/
 .popup {
   display: none;
-  width: 100%;
+  width: 90%;
   position: fixed;
   bottom: 4rem;
-  height: 100vh;
+  height: 91vh;
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 1);
+  left: 1rem;
+  top: 2rem;
+  bottom: 2rem;
   
 }
 
@@ -664,7 +667,7 @@ form#f2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: -1rem;
 }
 
 .popup-first .popupa {
@@ -673,9 +676,10 @@ form#f2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 31px;
+  font-size: 26px;
   line-height: 44px;
   color: #172b4d;
+  margin-left: 6px;
 }
 
 .popup-first .popups {
@@ -684,14 +688,14 @@ form#f2 {
 
 .popup-first .cancel {
   padding: 3rem;
-  margin-right: 20px;
+  margin-right: -5px;
 }
 
 .popup > ul {
   display: flex;
   list-style-type: none;
-  margin-top: 2rem;
-  margin-left: -5px;
+  margin-top: 1rem;
+  margin-left: 7px;
 
 }
 
@@ -711,28 +715,28 @@ form#f2 {
 
 .popup-sec img {
   margin-top: 1.3rem;
-  width: 90%;
-  margin-left: -10px;
+  width: 93%;
+  margin-left: 7px;
 }
 
 .popup-sec > p {
-  width:20rem;
+  width: 20rem;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-left: -0.8rem;
-  margin-top: 1rem;
+  margin-left: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 .popup-third {
   display: flex;
-  margin-left: -0.7rem;
-  margin-top: 0.5rem;
+  margin-left: 11px;
+  margin-top: 0.9rem;
   margin-bottom: 0.5rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .popup-third button:nth-child(1) {
@@ -1557,7 +1561,7 @@ button:nth-child(1):hover, button:nth-child(2):hover {
   .popup-third {
     display: flex;
     position: relative;
-    left: 30rem;
+    left: 29rem;
     bottom: 3.5rem;
   }
   
@@ -1965,8 +1969,15 @@ button:nth-child(1):hover, button:nth-child(2):hover {
     .popup-third {
       display: flex;
       position: relative;
-      left: 40rem;
+      left: 46rem;
       bottom: 3.5rem;
+    }
+
+    .popup-sec img {
+      margin-top: 1.3rem;
+      width: 70%;
+      margin-left: 15px;
+      padding-right: 2rem;
     }
     
     .popup-third button:nth-child(1) {
