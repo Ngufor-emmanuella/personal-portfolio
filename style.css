@@ -334,6 +334,17 @@ nav > ul > li > a {
   padding: 0 1rem;
 }
 
+small {
+  color: rgb(255, 0, 0);
+  background: #fff;
+  line-height: 20px;
+  width: auto;
+  padding: 0 1em;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  background-color: #fadddb;
+}
+
 #work > .first-box > .imgsection > .ttwork > ul {
   list-style-type: none;
   display: flex;
