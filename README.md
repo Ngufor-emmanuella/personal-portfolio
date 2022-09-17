@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project I built html dynamically where users can click onthe button and the popup appears
+In this project i created a javascript code to save data locally
 ## Built With
 
 - HTML
