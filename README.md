@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project a hambuger button is built so that that the user clicks on the menu bar or hamburger button displays the different menu options that is portfolio , about and contact and when the user clicks on each of the nav links it takes them to the page in the website
+In this project i built the portfolio cards section of the html dynamically and added a popup window for both mobile and desktop dynamically in javascript
 ## Built With
 
 - HTML
