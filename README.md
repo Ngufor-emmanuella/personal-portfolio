@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project a hambuger button is built so that that the user clicks on the menu bar or hamburger button displays the different menu options that is portfolio , about and contact and when the user clicks on each of the nav links it takes them to the page in the website
+In this project a validation form is built using javascript to guide users on how to fill the form and to prevent the form from being submitted incase the user does not folow the required recommendations to fill in the form 
 ## Built With
 
 - HTML
