@@ -1,295 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;900&family=Poppins:wght@200;300&family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
-    <title>Ngufor Emmanuella's portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Chukwuma Paul Mosanya">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Ngufor Emmanuella Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-        <nav>
-            <a class="logo-item" href="index.html">Ngufor Emmanuella</a>
-        <div id="hambu">
-            <img class="hambuger" src="Resources/Images/Icon-Menu20.png" alt="humberger_icon">
-        </div>
+  <header class="app-bar">
+    <a href="#" class="myName">Ngufor Emmanuella</a>
+    <nav>
+      <div id="nav-items" class="nav-items">
+        <a href="#portfolio">Portfolio</a>
+        <div class="line-separation"></div>
+        <a  href="#about">About</a>
+        <div class="line-separation"></div>
+        <a  href="#contact">Contact</a>
+        <div class="line-separation"></div>
+        <a href="mailto:solarmails2@gmail.com" class="mail-btn"><img src="img/Icon-Mail.png" alt="mail-icon"></a>
+      </div>
+      <button id="menu-button" class="menu">
+        <i class="fas fa-bars"></i></button>
+      
+      <button class="close-btn" id="close-btn">
+        <i class="fa-solid fa-xmark close-icon" ></i>
+      </button>
+    </nav>
+  </header>
 
-        <ul id="navlinks">
-            <li class="markx"><img src="Resources/Images/markx.png" alt="x icon"></li>
-            <li class="classbar"><a href="#headline">Portoflio</a></li>
-            <li class="classbar"><a href="#about">About</a></li>
-            <li class="classbar"><a href="#contact">Contact</a></li>
-            <li class="iconemail"><a href="#"><img src="Resources/Images/Union.png" alt="mail_icon"></a></li>
-        </ul>
-        </nav>
-    <!--the headline section-->
+  <section class="main-mobile">
+    <div>
+      <h1>Hey There. I'm Ngufor</h1>
+      <h2>I'am a Software Developer</h2>
+      <p id="primary-text-des">I can help you build a product, feature or website.
+        Look through some of my work and experience! If you
+        like what you see and have a project you need coded,
+        don't hestiate to contact me.
+      </p>
+    </div>
+    <div class="social-icons-container">
+      <ul class="social-icons">
+        <li><a href="https://github.com/blase147"><img src="img/Icon-GitHub.png" alt="social-icon"></a></li>
+        <li><a href="www.linkedin.com/in/chukwuma-mosanya-346453"><img src="img/Linkedin.png" alt="social-icon"></a></li>
+        <li><a href="www.angelist.com"><img src="img/Icon-Angelist.png" alt="social-icon"></a></li>
+        <li><a href="https://twitter.com/ChukwumaMosanya"><img src="img/Icon-Twitter.png" alt="social-icon"></a></li>
+        <li><a href="www.medium.com"><img src="img/Icon-Medium.png" alt="social-icons"></a></li>
+      </ul>
+    </div>
+  </section>
 
-    <section id="headline">
-        <h2 id="mainhead">Hey there. <span>I'm Ngufor</span></h2>
-        <h2 class="subhead">I'am a Software Developer</h2>
+  <section id="my-works" class="my-works">
+
+  </section>
+
+  <section class="my-works">
+    <div class="my-recent-works-title">
+      <h1 class="my-recent-work-title-h1">My Recent Works</h1>
+      <hr class="my-recent-work-title-hr">
+    </div>
+    <div class="my-recent-works">
+      <img class="featured-image" src="img/Img-Placeholder.jpg" alt="image">
+      <div class="multi-post-stories">
+        <h2>Multi-Post Stories</h2>
         <p>
-            I can help you build a product , feature or website Look 
-            through some of my work and experience! If you like what
-            you see and have a project you need coded, 
-            don't hestiate to contact me.
+          A daily selection of privately personalized reads; no accounts or sign-ups required,
+          has been the industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a standard dummy text.
         </p>
         <ul>
-            <li>
-                <a href="#"><img src="Resources/Images/Vector1.png" alt="Github"></a>
-            </li>
-            <li>
-                <a href="#"><img src="Resources/Images/Icon-Linkedin.png" alt="Linkin"></a>
-            </li>
-            <li>
-                <a href="#"><img src="Resources/Images/Icon-Angelist.png" alt="Angelist"></a>
-            </li>
-            <li>
-                <a href="#"><img src="Resources/Images/Icon-Twitter.png" alt="Twitter"></a>
-            </li>
-            <li>
-                <a href="#"><img src="Resources/Images/Icon-Medium.png" alt="Medium"></a>
-            </li>
+          <li class="li">css</li>
+          <li class="li">html</li>
+          <li class="li">bootstrap</li>
+          <li class="li">Ruby</li>
         </ul>
+        <button class="btn-sp" type="button">See Project</button>
+      </div>
+    </div>
+  </section>
+
+<section id="portfolio" class="main-project" >
+
+  <div class="popup-project" id="popup"> 
+  
+  </div>
+
+</section>
+
+  <section id="about" class="about">
+    <div class="about-me">
+      <div class="about-me-intro">
+        <h1>About me</h1>
+        <p>Hello I'm a software developer! I can help you build a product,
+          feature or website Look through some of my work and experience!
+          If you like what you see and have a project you need coded,
+          don't hestiate to contact me.</p>
+        <button type="button">Get My Resume</button>
+      </div>
+    </div>
+
+    <hr class="skill-rule">
+    <div class="skill-section">
+
+      <div class="skill-a">
+        <p class="skill-a-title"><img src="img/diamond.png" alt="icon">Language</p>
+        <ul>
+          <li>Javascript</li>
+          <li>Ruby</li>
+          <li>Html</li>
+          <li>Css</li>
+        </ul>
+      </div>
+
+      <div class="skill-a">
+        <p class="skill-a-title"><img src="img/Rectangle.png" alt="image-icon">Frameworks</p>
+        <ul>
+          <li>Bootstrap</li>
+          <li>Ruby on Rail</li>
+          <li>RSPec</li>
+          <li>CapyBara</li>
+          <li>Selenium</li>
+        </ul>
+      </div>
+
+      <div class="skill-a">
+        <p class="skill-a-title"><img src="img/circle.png" alt="icon">Skills</p>
+        <ul>
+          <li>Codekit</li>
+          <li>Github</li>
+          <li>Codepen</li>
+          <li>Gitlab</li>
+          <li>Terminal</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section id="contact" class="about-me-2">
+      <p>I'm always interested in hearing about new projects,
+        so if you'd like to chat please get in touch.</p>
+
+      <div class="get-in-touch">
+        <form id="form" action="https://formspree.io/f/xqkjanrn" method="POST">
+          <input type="text" name="fullname" maxlength="30" placeholder="Fullname" required>
+          <input id="mail" class="email" type="email" name="email" placeholder="Email address">
+          <textarea name="comment" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
+          <span class="message"></span>
+          <!-- your other form fields go here -->
+          <div class="align-left">
+            <button type="submit">Get in touch</button>
+          </div>
+        </form>
+      </div>
+
+      <hr class="footer-rule-2">      
     </section>
 
-    <!--the work section-->
-    <section id="work">
-        <div class="first-box">
-            <div class="headtext">
-                <h2>My Recent Works</h2>
-            </div>
-            <hr class="ohh">
-            
-            <div class="imgsection">
-                <img src="Resources/Images/ImgPlaceholder.png" alt="ImgPlaceholder">
-                <div class="ttwork">
-                    <h3>Multi-Post Stories</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <ul>
-                    <li>Css</li>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button" name="See_Project">See Project</button>
-                </div>
-            </div>
-        </div>
+    <hr class="footer-rule-1">
 
-        <!--work cart-->
-        <div class="carttt">
-            <div class="cart" id="cf1">
-                <h2>Profesional Art <span>Printing Data</span> </h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul>
-                        <li>Html</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart">
-                <h2>Profesional Art <span>Printing Data</span> </h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart">
-                <h2>Profesional Art <span>Printing Data</span> </h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart">
-                <h2>Profesional Art <span>Printing Data</span> </h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart">
-                <h2>Profesional Art <span>Printing Data</span> </h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart">
-                <h2>Profesional Art <span>Printing Data</span> </h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                <button type="button" name="See-Project">See Project</button>
-            </div>
-        </div>
+    <ul class="social-icons">
+      <li><a href="https://github.com/blase147"><img src="img/Icon-GitHub2.png" alt="icon"></a></li>
+      <li><a href="www.linkedin.com/in/chukwuma-mosanya-346453"><img src="img/Icon-Linkedin.png" alt="icon"></a></li>
+      <li><a href="www.angelist.com"><img src="img/Icon-Angelist2.png" alt="icon"></a></li>
+      <li><a href="https://twitter.com/ChukwumaMosanya"><img src="img/Icon-Twitter2.png" alt="icon"></a></li>
+      <li><a href="www.medium.com"><img src="img/Icon-Medium2.png" alt="icon"></a></li>
+    </ul>
+  </footer>
 
-        <!--carts for desktop-->
-        <div class="cartt2">
-            <div class="cartbox" id="c1">
-                <img class="proj1" src="Resources/Images/Mask-Group.png" alt="printing"/>
-                
-                    <button class="firstbut" type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart c2">
-                <img class="projbg" src="Resources/Images/ImgPlaceholder(9).png" alt="printing pic"/>
-                <!-- single background and card -->
-                <h2 class="soft">Data Dashboard <br> Healthcare</h2>
-                <p class="two">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <!-- give ul a class name -->
-                    <li class="engine">Html</li>
-                    <li class="engine">Bootstrap</li>
-                    <li class="engine">Ruby</li>
-                </ul>
-                <button class="thirdbut" type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart c3">
-                <img class="projbg1" src="Resources/Images/Mask-Group2.png" alt="art paintaing"/>
-                <h2 class="web">Website Protfolio </h2>
-                <p class="website">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="website2">
-                    <li class="engine ">Html</li>
-                    <li class="engine">Bootstrap</li>
-                    <li class="engine">Ruby</li>
-                </ul>
-                <button class="secondbut" type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart" id="c4">
-                <img class="projone" src="Resources/Images/imageplace4.png" alt="image"/>
-                <h2 class="software">Profesional Art <span>Printing Data More</span> </h2>
-                <p class="sogood">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="under">
-                    <li class="engine">Html</li>
-                    <li class="engine">Bootstrap</li>
-                    <li class="engine">Ruby</li>
-                </ul>
-                <button class="fourthbut" type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart c2">
-                <img class="projbg" src="Resources/Images/ImgPlaceholder(9).png" alt="printing pic"/>
-                <h2 class="soft">Data Dashboard Healthcare</h2>
-                <p class="two">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul>
-                    <li class="engine">Html</li>
-                    <li class="engine">Bootstrap</li>
-                    <li class="engine">Ruby</li>
-                </ul>
-                <button class="thirdbut" type="button" name="See-Project">See Project</button>
-            </div>
-            <div class="cart c3">
-                <img class="projbg" src="Resources/Images/Mask-Group2.png" alt="art paining"/>
-                <h2 class="web">Website Protfolio</h2>
-                <p class="website">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="website2">
-                    <li class="engine">Html</li>
-                    <li class="engine">Bootstrap</li>
-                    <li class="engine">Ruby</li>
-                </ul>
-                <button class="fifthbut" type="button" name="See-Project">See Project</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-            <h2>About me</h2>
-            <p>Hello I'm a software developer! I can help you
-                 build a product , feature or website Look 
-                 through some of my work and experience! If you
-                  like what you see and have a project you need
-                   coded, don't hestiate to contact me.</p>
-
-                   <button  type="button" name="get my resume">Get My Resume</button>
-                   <div class="line"></div>
-                   
-                <div class="frameworks">
-                    <div class="lists">
-                      <h1 class="title-1">
-                    <img src="Resources/Images/Rectangle55.png" alt="LanguageIcon">
-                    Language
-                </h1>
-                <ul>
-                    <li>Javascript</li>
-                    <li>Ruby</li>
-                    <li>Html</li>
-                    <li>Css</li>
-                  </ul>
-
-                  <h1 class="title-2">
-            <img src="Resources/Images/Rectangle56.png" alt="Frameworks">
-            Frameworks
-       </h1>
-       <ul>
-        <li>Bootstrap</li>
-        <li>Ruby on Rails</li>
-        <li>RSPec</li>
-        <li>CapyBara</li>
-        <li>Selenium</li>
-            </ul>
-                    <h1 class="title-3">
-                    <img src="Resources/Images/Rectangle57.png" alt="Skills">
-                        Skills
-                    </h1>
-                    <ul>
-                        <li>Codekit</li>
-                        <li>GitHub</li>
-                        <li>Codepen</li>
-                        <li>Gitlab</li>
-                        <li>Terminal</li>
-                    </ul>
-                    </div>
-                </div>
-    </section>
-
-        <section id="contact">
-            <h2>I'm always <br>interested in hearing <br>about new projects, <br>so if you'd like to <br>chat please get in <br>touch.</h2>
-            <form action="https://formspree.io/f/mbjblbao" method="post" id="f1">
-                <input name="text" id="text1" type="text" maxlength="30" placeholder="Full name" required>
-                <input name="email" id="email1" type="email" placeholder="Email adress" required>
-                <textarea name="message" id="text_zone1" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
-                <input type="submit" value="Get in touch" >
-            </form>
-            <form action="https://formspree.io/f/mbjblbao" method="post" id="f2">
-                <span>
-                    <input name="text" id="text2" type="text" maxlength="30" placeholder="First name" required>
-                    <input name="text" id="text" type="text" maxlength="30" placeholder="Second name" required>
-                </span>
-                <input name="email" id="email" type="email" placeholder="Email adress" required>
-                <textarea name="message" id="text_zone" cols="30" rows="10" maxlength="500" placeholder="Hello Emmanuella. Glad to see you" required></textarea>
-                <input type="submit" value="Get in touch" >
-            </form>
-        </section>
-
-        <footer class="footericon">
-          <ul>
-            <li><a href="#"><img src="Resources/Images/Vector.png" alt="Github"></a></li>
-            <li><a href="#"><img src="Resources/Images/Group0.png" alt="Linkin"></a></li>
-            <li><a href="#"><img src="Resources/Images/Vector5.png" alt="Angelist"></a></li>
-            <li><a href="#"><img src="Resources/Images/Vecto2r.png" alt="Twitter"></a></li>
-            <li><a href="#"><img src="Resources/Images/Vector13.png" alt="Medium"></a></li>
-          </ul>
-          <div class="line1"></div>
-        </footer>
-
-        <script src="index.js"></script>
+  <div>
+    <hr class="footer-rule">
+  </div>
 </body>
+<script type="module" src="js/index.js"></script>
+<script type="module" src="js/validateform.js"></script>
 </html>
