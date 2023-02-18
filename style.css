@@ -1,104 +1,61 @@
-* {
-  padding: 0;
+.bar {
+  display: flex;
+  background-color: rgba(60, 58, 57, 1);
+  list-style: none;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
-  box-sizing: border-box;
+  font-size: larger;
+  padding: 0 25px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  background-color: #3e3c3c;
-  padding: 0.7rem;
-  width: 100%;
+.bar a {
+  text-decoration: none;
+  color: white;
 }
 
 body {
-  background-color: #1c1a19;
+  background-color: rgba(28, 26, 25, 1);
+  margin: 0;
 }
 
-h1 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 45px;
-  color: #f55800;
-  width: 300px;
-  line-height: 1em;
+.main {
+  background-image: url('Group.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh;
 }
 
-h4 {
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 19px;
-  color: #fff;
-  line-height: 3em;
+.container {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
-p {
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: #fff;
-  width: auto;
-  letter-spacing: 0.01rem;
+.container h1 {
+  color: orangered;
+  margin-top: 120px;
+  margin-bottom: 12px;
+  font-size: 100px;
 }
 
-.name {
-  padding-right: 1rem;
+.container h2 {
+  color: rgba(255, 245, 225, 1);
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
 }
 
-.na {
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 20px;
-  font-family: 'poppins', sans-serif;
-}
-
-.na a {
-  color: #fff;
-  font-family: 'poppins', sans-serif;
-  font-size: 1rem;
-  line-height: 5px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.na li {
-  margin-left: 1rem;
-  list-style-type: none;
+.container p {
+  font-size: 30px;
+  color: white;
 }
 
 .icons {
-  padding-left: 0.5rem;
   list-style-type: none;
   display: flex;
-  margin-top: 1rem;
-}
-
-.icons li {
-  padding-right: 1.2rem;
-}
-
-.ham img {
-  margin-right: 1rem;
-}
-
-.image {
-  position: absolute;
-  bottom: 3.5rem;
-  right: 0;
-}
-
-#headlines {
-  display: flex;
-  flex-direction: column;
-  background-image: url(image/illustration-header-mobile.png);
-  background-position: right 10.5em;
-  background-repeat: no-repeat;
-  background-size: 8em;
-  height: 37em;
-  padding: 5rem 2.5rem 0.5rem 1.5rem;
+  justify-content: space-between;
+  max-width: 300px;
+  height: 30px;
+  margin-left: 48px;
 }
