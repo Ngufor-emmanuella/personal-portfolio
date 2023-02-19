@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project a hambuger button is built so that that the user clicks on the menu bar or hamburger button displays the different menu options that is portfolio , about and contact and when the user clicks on each of the nav links it takes them to the page in the website
+In this project i created a javascript code to save data locally
 ## Built With
 
 - HTML
@@ -34,6 +34,12 @@ In this project a hambuger button is built so that that the user clicks on the m
 ## Authors
 
 👤 **Ngufor Emmanuella**
+
+- GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
+- Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
+- LinkedIn: [Nguforemmanuella](https://linkedin.com/in/Nguforemmanuella)
+
+👤 **Nejjari001**
 
 - GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
 - Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
