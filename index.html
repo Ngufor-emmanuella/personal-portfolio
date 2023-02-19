@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kingsely's Portfolio</title>
+  <title>Emmauella's Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Crete%20Round' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -31,7 +31,7 @@
     <section id="sect" class="sect">
 
       <div id="drop-menu" class="menu">
-        <img onclick="myFunction1()" src="images/Iconx.png" alt="cancel" class="cancel">
+        <img id="cancelImage" src="images/Iconx.png" alt="cancel" class="cancel">
         <ul>
           <li><a href="#Portfolio" onclick="myFunction1()">Portfolio</a><br><hr></li>
           <li><a href="#About" onclick="myFunction1()">About</a><br><hr></li>
@@ -51,7 +51,7 @@
           </ul>
         </div>
 
-        <nav class="union"><img onclick="myFunction()" src="images/Union.png" alt="union"></nav>
+        <nav class="union"><img id="union" src="images/Union.png" alt="union"></nav>
       </header>
 
       <section class="main">
@@ -150,7 +150,8 @@
     </p>
     <form action="https://formspree.io/f/mvodvrnv" method="post" class="form">
       <input type="text" placeholder="Full name" name="name" maxlength="30" required>
-      <input type="email" placeholder="Email address" name="email" required>
+      <input type="email" id="email" placeholder="Email address" name="email" required>
+      <span id="error"></span>
       <textarea name="message" maxlength="500" placeholder="Enter your text" required></textarea>
       <button type="submit" class="button6">Get in touch</button>
     </form>
