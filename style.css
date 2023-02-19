@@ -126,7 +126,7 @@ body {
   width: 375px;
 }
 
-.works h2 {
+.works h1 {
   font-size: 40px;
   width: 327px;
   height: 83px;
@@ -232,7 +232,7 @@ body {
   margin-bottom: 24px;
 }
 
-.projects h3 {
+.projects h2 {
   font-size: 32px;
   color: white;
   margin: 84px 40px 0 40px;
@@ -290,7 +290,7 @@ body {
   background-position: bottom right;
 }
 
-.about h2 {
+.about h1 {
   margin: 120px 24px 12px 24px;
   font-size: 72px;
   color: rgba(255, 107, 0, 1);
@@ -333,7 +333,7 @@ body {
   width: 340px;
 }
 
-.info div h3 {
+.info div h2 {
   color: white;
   font-size: 32px;
   font-weight: 700;
@@ -558,7 +558,7 @@ body {
     margin: 80px 140px 0 0;
   }
 
-  .works_line h2 {
+  .works_line h1 {
     margin-left: 50px;
   }
 
@@ -612,7 +612,7 @@ body {
     color: white;
   }
 
-  .projects_art h3 {
+  .projects_art h2 {
     font-size: 32px;
     margin: 137px 40px 0 10px;
     font-family: "Crete Round", serif;
@@ -681,7 +681,7 @@ body {
     color: white;
   }
 
-  .projects_web h3 {
+  .projects_web h2 {
     font-size: 32px;
     margin: 170px 40px 0 10px;
     font-family: "Crete Round", serif;
@@ -704,7 +704,7 @@ body {
     color: white;
   }
 
-  .projects_data h3 {
+  .projects_data h2 {
     font-size: 32px;
     margin: 135px 40px 0 10px;
     font-family: "Crete Round", serif;
@@ -717,7 +717,7 @@ body {
     background-position: right;
   }
 
-  .about h2 {
+  .about h1 {
     font-size: 72px;
     margin: 120px 24px 12px 140px;
   }
@@ -753,7 +753,7 @@ body {
     text-align: left;
   }
 
-  .info div h3 {
+  .info div h2 {
     font-size: 32px;
   }
 
@@ -802,7 +802,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .works_line h2 {
+  .works_line h1 {
     margin: 125px 0 20px 140px;
     margin-left: 150px;
   }
@@ -824,7 +824,7 @@ body {
     width: 380px;
   }
 
-  .store h3 {
+  .store h2 {
     margin-bottom: 30px;
   }
 
@@ -847,15 +847,15 @@ body {
     height: 370px;
   }
 
-  .projects_art h3 {
+  .projects_art h2 {
     margin: 102px 40px 0 10px;
   }
 
-  .projects_data h3 {
+  .projects_data h2 {
     margin: 100px 40px 0 10px;
   }
 
-  .projects_web h3 {
+  .projects_web h2 {
     margin: 140px 40px 0 10px;
   }
 
@@ -868,7 +868,6 @@ body {
     background-size: contain;
     color: transparent;
     cursor: pointer;
-    border: 1px solid black;
   }
 
   .projects_art:hover .sites1 ul li {
@@ -878,7 +877,7 @@ body {
   .button2 {
     display: none;
     width: 310px;
-    margin-left: 0;
+    margin-left: 1px;
   }
 
   .projects_art:hover .button2 {
@@ -894,7 +893,6 @@ body {
     background-size: contain;
     color: transparent;
     cursor: pointer;
-    border: 1px solid black;
   }
 
   .projects_data:hover .sites1 ul li {
@@ -914,7 +912,6 @@ body {
     background-size: contain;
     color: transparent;
     cursor: pointer;
-    border: 1px solid black;
   }
 
   .projects_web:hover .sites1 ul li {
@@ -942,7 +939,7 @@ body {
     width: 684px;
   }
 
-  .about h2 {
+  .about h1 {
     margin-top: 200px;
   }
 
@@ -984,15 +981,15 @@ body {
     height: 435px;
   }
 
-  .projects_art h3 {
+  .projects_art h2 {
     margin: 194px 40px 0 15px;
   }
 
-  .projects_data h3 {
+  .projects_data h2 {
     margin: 192px 40px 0 15px;
   }
 
-  .projects_web h3 {
+  .projects_web h2 {
     margin: 230px 40px 0 15px;
   }
 
