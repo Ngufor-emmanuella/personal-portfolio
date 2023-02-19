@@ -1,0 +1,11 @@
+Page titles was fixed at 
+ https://github.com/Ngufor-emmanuella/personal-portfolio/blob/f7c34588d363a3404f7b721653f332e862c06730/index.html#L11
+Image text alternatives** (<img alt="alt text">)
+https://github.com/Ngufor-emmanuella/personal-portfolio/blob/f7c34588d363a3404f7b721653f332e862c06730/index.html#L16
+Text headings -no issues found 
+Color contrast -no issues found 
+Resize -no issues found 
+Interaction (labels are optional but recommended as voiceover tools can read them, and should be set as invisible to match the Figma design)
+Moving content
+Multimedia
+The basic structure of the page
