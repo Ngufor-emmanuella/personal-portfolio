@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 body {
   margin: 0;
 }
@@ -36,6 +40,7 @@ body {
   color: white;
 }
 
+<<<<<<< HEAD
 .links ul,
 .project_desktop,
 .works3,
@@ -43,6 +48,8 @@ body {
   display: none;
 }
 
+=======
+>>>>>>> main
 .container h1 {
   color: rgba(255, 107, 0, 1);
   margin: 120px 24px 12px 24px;
@@ -62,7 +69,11 @@ body {
   font-size: 16px;
   color: white;
   margin: 12px 24px 0 24px;
+<<<<<<< HEAD
   font-family: 'Inter', sans-serif;
+=======
+  font-family: 'Poppins', sans-serif;
+>>>>>>> main
 }
 
 .icons {
@@ -134,13 +145,22 @@ body {
   font-weight: 400;
 }
 
+<<<<<<< HEAD
+=======
+}
+
+
+>>>>>>> main
 .sites ul {
   display: flex;
   list-style: none;
   padding: 10px;
   justify-content: space-between;
   margin: 0 24px 0 16px;
+<<<<<<< HEAD
   max-width: 50vw;
+=======
+>>>>>>> main
 }
 
 .sites ul li a {
@@ -395,6 +415,7 @@ body {
   list-style: none;
 }
 
+<<<<<<< HEAD
 @media (min-width: 375px) {
   .sect {
     width: 100vw;
@@ -901,3 +922,5 @@ body {
     line-height: 44px;
   }
 }
+=======
+>>>>>>> main

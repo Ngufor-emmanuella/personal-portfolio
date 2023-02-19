@@ -1,10 +1,10 @@
 # personal-portfolio
-
-In this project i built a desktop portfolio version webpage with a min width of 768px. grid and flex position elements are used to position elements in my webpage. Also on buttons hover was applied to them . And a contact form was added to finalise the mobile version portfolio. no complex code is done here.
+In this project i created a javascript code to save data locally
 ## Built With
 
 - HTML
 - CSS
+-javascript
 - Linters
 
 ### Prerequisites
@@ -19,7 +19,7 @@ In this project i built a desktop portfolio version webpage with a min width of 
 
 ### Install
 
-- Copy the github link for the repository [repository link](https://github.com/Ngufor-emmanuella/personal-portfolio.git)
+- Copy the github link for the repository
 - Open the git terminal and type git clone then paste the repository link
 
 ### Run tests
@@ -29,11 +29,17 @@ In this project i built a desktop portfolio version webpage with a min width of 
 ### Deployment
 
 - It will be deployed to the github page
-
+-live version of project [repository link](https://ngufor-emmanuella.github.io/personal-portfolio/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Ngufor Emmanuella**
+
+- GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
+- Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
+- LinkedIn: [Nguforemmanuella](https://linkedin.com/in/Nguforemmanuella)
+
+👤 **Nejjari001**
 
 - GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
 - Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
