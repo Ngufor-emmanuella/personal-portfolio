@@ -1,5 +1,5 @@
 # personal-portfolio
-In this project a validation form is built using javascript to guide users on how to fill the form and to prevent the form from being submitted incase the user does not folow the required recommendations to fill in the form 
+In this project i created a javascript code to save data locally
 ## Built With
 
 - HTML
@@ -34,6 +34,12 @@ In this project a validation form is built using javascript to guide users on ho
 ## Authors
 
 👤 **Ngufor Emmanuella**
+
+- GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
+- Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
+- LinkedIn: [Nguforemmanuella](https://linkedin.com/in/Nguforemmanuella)
+
+👤 **Nejjari001**
 
 - GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
 - Twitter: [@NguforEmmanuella](https://twitter.com/NguforEmmanuella)
