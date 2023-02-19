@@ -370,3 +370,4 @@ form.addEventListener('submit', (e) => {
     errorElement.textContent = 'Invalid email, please use lowercase';
   }
 });
+
