@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Mobile-first-Portfolio-Project/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
