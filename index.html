@@ -4,58 +4,83 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Mobile Version Skeletun</title>
+  <title>Kingsely's Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Crete%20Round' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <link href="https://allfont.net/allfont.css?fonts=crete-round" rel="stylesheet" type="text/css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7S50XE4XT4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7S50XE4XT4');
+</script>
 </head>
 <body>
    <section class="body">
     <section class="sect">
+
+      
+      <div id="drop-menu" class="menu">
+        <img onclick="myFunction1()" src="images/Iconx.png" alt="cancel" class="cancel">
+        <ul>
+          <li><a href="#Portfolio" onclick="myFunction1()">Portfolio</a><br><hr></li>
+          <li><a href="#About" onclick="myFunction1()">About</a><br><hr></li>
+          <li><a href="#Contacts" onclick="myFunction1()">Contacts</a><br><hr></li>
+        </ul>
+      </div>
+
       <header class="bar">
-        <div class="logo"><a href="#">Kingstalux</a></div>
+        <div class="logo"><a href="#">Emma</a></div>
 
         <div class="links">
           <ul>
-            <li><a href="#">Portfolio</a></li>
+<!--             <li><a href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#"><img src="envelop.png" alt="envelope"></a></li>
+            <li><a href="#"><img src="images/envelop.png" alt="message"></a></li> -->
+
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contacts">Contact</a></li>
+            <li><a href="#"><img src="images/envelop.png" alt="envelope"></a></li>
           </ul>
         </div>
 
-        <nav class="union"><img src="Union.png" alt="union"></nav>
+        <nav class="union"><img onclick="myFunction()" src="images/Union.png" alt="union"></nav>
       </header>
 
       <section class="main">
         <div class="container">
-          <h1>Hey There.<br>I'm Kingsely</h1>
+          <h1>Hey There.<br>I'm Emmanella</h1>
           <h2>I'm a Software Developer</h2>
           <p>I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
         </div>
         <ul class="icons">
-          <li><a href="#"><img src="cat.png" alt="github icon"></a></li>
-          <li><a href="#"><img src="Linkedin.png" alt="linkedin icon"></a></li>
-          <li><a href="#"><img src="hand.png" alt="angelist icon"></a></li>
-          <li><a href="#"><img src="bird.png" alt="twitter icon"></a></li>
-          <li><a href="#"><img src="m.png" alt="medium icon"></a></li>
+          <li><a href="#"><img src="images/cat.png" alt="github icon"></a></li>
+          <li><a href="#"><img src="images/Linkedin.png" alt="linkedin icon"></a></li>
+          <li><a href="#"><img src="images/hand.png" alt="angelist icon"></a></li>
+          <li><a href="#"><img src="images/bird.png" alt="twitter icon"></a></li>
+          <li><a href="#"><img src="images/m.png" alt="medium icon"></a></li>
         </ul>
       </section>
   </section>
 
-  <section class="works">
+  <section id="Portfolio" class="works">
     <div class="works_line">
-      <div><h1>My Recent Works</h1></div>
+      <div><h2>My Recent Works</h2></div>
     <hr>
     </div>
 
     <section class="works3">
-      <img src="Img.png" alt="picture">
+      <img src="images/Img.png" alt="picture">
       <div class="store">
-        <h2 class="heed">Multi-Post Stories</h2>
+        <h3 class="heed">Multi-Post Stories</h3>
         <p>
           A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
         </p>
@@ -71,9 +96,9 @@
       </div>
     </section>
 
-    <img src="image1.png" alt="picture" class="works_image">
+    <img src="images/image1.png" alt="picture" class="works_image">
     <div class="works_mobile">
-      <h2 class="heed">Multi-Post Stories</h2>
+      <h3 class="heed">Multi-Post Stories</h3>
       <p>
         A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
       </p>
@@ -95,7 +120,7 @@
 
   <section class="project_container">
     <section class="projects">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -108,7 +133,7 @@
     </section>
   
     <section class="projects">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -121,7 +146,7 @@
     </section>
   
     <section class="projects">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -134,7 +159,7 @@
     </section>
   
     <section class="projects">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -147,7 +172,7 @@
     </section>
   
     <section class="projects">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -160,7 +185,7 @@
     </section>
   
     <section class="projects">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -176,7 +201,7 @@
 
   <section class="project_desktop">
     <section class="projects_art">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -188,7 +213,7 @@
       <button type="button" class="button2">See Project</button>  
     </section>
     <section class="projects_data">
-      <h2>Data Dashboard Healthcare</h2>
+      <h3>Data Dashboard Healthcare</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -199,7 +224,7 @@
       </div>
       <button type="button" class="button2">See Project</button>  
     </section><section class="projects_web">
-      <h2>Website Portfolio</h2>
+      <h3>Website Portfolio</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -210,7 +235,7 @@
       </div>
       <button type="button" class="button2">See Project</button>  
     </section><section class="projects_art">
-      <h2>Professional Art Printing Data</h2>
+      <h3>Professional Art Printing Data</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -221,7 +246,7 @@
       </div>
       <button type="button" class="button2">See Project</button>  
     </section><section class="projects_data">
-      <h2>Data Dashboard Healthcare</h2>
+      <h3>Data Dashboard Healthcare</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -232,7 +257,7 @@
       </div>
       <button type="button" class="button2">See Project</button>  
     </section><section class="projects_web">
-      <h2>Website Portfolio</h2>
+      <h3>Website Portfolio</h3>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
       <div class="sites1">
         <ul>
@@ -245,9 +270,9 @@
     </section>
   </section>
 
-  <section class="about">
+  <section id="About" class="about">
    <div>
-    <h1>About me</h1>
+    <h2>About me</h2>
     <p>
       Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
     </p>
@@ -262,7 +287,7 @@
   <section class="info">
     <hr>
     <div class="language">
-      <h2><img src="diamond.png" alt="diamond">Language</h2>
+      <h3><img src="images/diamond.png" alt="diamond">Language</h3>
       <ul>
         <li>Javascript</li>
         <li>Ruby</li>
@@ -271,7 +296,7 @@
       </ul>
     </div>
     <div class="frameworks">
-      <h2><img src="rectangle.png" alt="rectangle">Frameworks</h2>
+      <h3><img src="images/rectangle.png" alt="rectangle">Frameworks</h3>
       <ul>
         <li>Bootstrap</li>
         <li>Ruby on Rails</li>
@@ -281,7 +306,7 @@
       </ul>
     </div>
     <div class="skills">
-      <h2><img src="circle.png" alt="circle">Skills</h2>
+      <h3><img src="images/circle.png" alt="circle">Skills</h3>
       <ul>
         <li>Codekit</li>
         <li>Github</li>
@@ -292,7 +317,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section id="Contacts" class="contact">
     <p>
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </p>
@@ -308,14 +333,15 @@
     <hr>
     <div>
       <ul class="icons3">
-        <li><a href="#"><img src="image_a.png" alt="github icon"></a></li>
-        <li><a href="#"><img src="image_b.png" alt="linkedin icon"></a></li>
-        <li><a href="#"><img src="image_c.png" alt="angelist icon"></a></li>
-        <li><a href="#"><img src="image_d.png" alt="twitter icon"></a></li>
-        <li><a href="#"><img src="image_e.png" alt="medium icon"></a></li>
+        <li><a href="#"><img src="images/image_a.png" alt="github icon"></a></li>
+        <li><a href="#"><img src="images/image_b.png" alt="linkedin icon"></a></li>
+        <li><a href="#"><img src="images/image_c.png" alt="angelist icon"></a></li>
+        <li><a href="#"><img src="images/image_d.png" alt="twitter icon"></a></li>
+        <li><a href="#"><img src="images/image_e.png" alt="medium icon"></a></li>
       </ul>
     </div>
   </footer>
    </section>
+   <script src="script.js"></script>
 </body>
 </html>
